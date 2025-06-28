@@ -3,7 +3,7 @@
     </div>
 
 <div align="center">
-  <img src="public/logo.png" alt="Logo" width="200" align="right"/>
+  <img src="public/logoT.png" alt="Logo" width="200" align="right"/>
    &nbsp;&nbsp;&nbsp;&nbsp;
   <h4>
     A showcase of my skills, projects, and expertise as a Software Developer.  
@@ -11,7 +11,7 @@
   </h4>
   <p>
     <span style="font-size: 1.2em; font-weight: bold;">🔗 Live Demo:</span>
-    <a href="https://pultti.github.io/Web_Portfolio/" target="_blank">
+    <a href="https://pultti.github.io/toni-isopoussu/" target="_blank">
       Toni Isopoussu
     </a>
   </p>
