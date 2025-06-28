@@ -11,7 +11,7 @@
   </h4>
   <p>
     <span style="font-size: 1.2em; font-weight: bold;">🔗 Live Demo:</span>
-    <a href="https://pultti.github.io/toni-isopoussu/" target="_blank">
+    <a href="https://pultti.github.io/Web_Portfolio/" target="_blank">
       Toni Isopoussu
     </a>
   </p>
