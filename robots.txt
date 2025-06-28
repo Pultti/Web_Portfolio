@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://pultti.github.io/Toni-Isopoussu/sitemap.xml
+Sitemap: https://pultti.github.io/Web_Portfolio/sitemap.xml
