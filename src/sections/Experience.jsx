@@ -81,77 +81,73 @@ const ExperienceCard = ({ experience }) => {
           </ul>
         </div>
       )}
+ 
+      {experience.grades && (
+        <>
+          <button
+            onClick={() => setShowGrades(true)}
+            className="mt-4 bg-[#ff9720] text-black px-4 py-1 rounded hover:bg-[#fc0865] transition"
+          >
+            Show Grades
+          </button>
 
-
-
-
-      
-  {experience.grades && (
-    <>
-      <button
-        onClick={() => setShowGrades(true)}
-        className="mt-4 bg-[#ff9720] text-black px-4 py-1 rounded hover:bg-[#fc0865] transition"
+          {showGrades && (
+            <div
+      /* overlay */
+      className="fixed inset-0 flex items-center justify-center bg-black/60 z-50"
+      onClick={() => { setShowGrades(false); setExpandedRow(null); }}
+    >
+      {/* modal */}
+      <div
+        onClick={(e) => e.stopPropagation()}
+        className="bg-[#32303a] text-white p-6 rounded-2xl w-[92%] sm:max-w-lg
+                  max-h-[80vh] overflow-y-auto shadow-2xl ring-1 ring-[#ff9720]/40"
       >
-        Show Grades
-      </button>
+        <h4 className="text-xl font-bold mb-4">
+          <LinearGradient gradient={["to left", "#ff9720 ,#fc0865"]}>
+            Course Grades
+          </LinearGradient>
+        </h4>
 
-      {showGrades && (
-        <div
-  /* overlay */
-  className="fixed inset-0 flex items-center justify-center bg-black/60 z-50"
-  onClick={() => { setShowGrades(false); setExpandedRow(null); }}   // ← sulje klikatessa ulkoa
->
-  {/* modal */}
-  <div
-    onClick={(e) => e.stopPropagation()}   // ← estä overlay-klikki
-    className="bg-[#32303a] text-white p-6 rounded-2xl w-[92%] sm:max-w-lg
-               max-h-[80vh] overflow-y-auto shadow-2xl ring-1 ring-[#ff9720]/40"
-  >
-    <h4 className="text-xl font-bold mb-4">
-      <LinearGradient gradient={["to left", "#ff9720 ,#fc0865"]}>
-        Course Grades
-      </LinearGradient>
-    </h4>
-
-    {/* taulukko */}
-    <table className="w-full text-xs md:text-sm">
-      <thead>
-        <tr className="bg-[#1f1d26] sticky top-0">
-          <th className="p-2 text-left">Course</th>
-          <th className="p-2">Grade</th>
-          <th className="p-2 w-28"></th>
-        </tr>
-      </thead>
-      <tbody>
-        {experience.grades.map((g, i) => (
-          <React.Fragment key={i}>
-            <tr className={i % 2 ? "bg-gradient-to-r from-[#ff9720]/20 to-[#fc0865]/20" : "bg-white/5"}>
-              <td className="p-2 font-medium">{g.course}</td>
-              <td className="p-2 text-center">{g.grade}</td>
-              <td className="p-2">
-                {g.info && (
-                  <button
-                    onClick={() => setExpandedRow(expandedRow === i ? null : i)}
-                    className="bg-gradient-to-r from-[#ff9720] to-[#fc0865] text-black
-                    px-2 py-[2px] rounded transition hover:opacity-80"
-                  >
-                    {expandedRow === i ? "Hide" : "More"}
-                  </button>
-                )}
-              </td>
+        {/* table */}
+        <table className="w-full text-xs md:text-sm">
+          <thead>
+            <tr className="bg-[#1f1d26] sticky top-0">
+              <th className="p-2 text-left">Course</th>
+              <th className="p-2">Grade</th>
+              <th className="p-2 w-28"></th>
             </tr>
+          </thead>
+          <tbody>
+            {experience.grades.map((g, i) => (
+              <React.Fragment key={i}>
+                <tr className={i % 2 ? "bg-gradient-to-r from-[#ff9720]/20 to-[#fc0865]/20" : "bg-white/5"}>
+                  <td className="p-2 font-medium">{g.course}</td>
+                  <td className="p-2 text-center">{g.grade}</td>
+                  <td className="p-2">
+                    {g.info && (
+                      <button
+                        onClick={() => setExpandedRow(expandedRow === i ? null : i)}
+                        className="bg-gradient-to-r from-[#ff9720] to-[#fc0865] text-black
+                        px-2 py-[2px] rounded transition hover:opacity-80"
+                      >
+                        {expandedRow === i ? "Hide" : "More"}
+                      </button>
+                    )}
+                  </td>
+                </tr>
 
-            {expandedRow === i && (
-              <tr>
-                <td colSpan={3} className="p-3 bg-[#1f1d26] whitespace-pre-line">
-                  {g.info}
-                </td>
-              </tr>
-            )}
-          </React.Fragment>
-        ))}
-      </tbody>
-    </table>
+                {expandedRow === i && (
+                  <tr>
+                    <td colSpan={3} className="p-3 bg-[#1f1d26] whitespace-pre-line">
+                      {g.info}
+                    </td>
+                  </tr>
+                )}
+              </React.Fragment>
+            ))}
+          </tbody>
+        </table>
 
     <button
       onClick={() => { setShowGrades(false); setExpandedRow(null); }}

@@ -71,8 +71,8 @@ To run this project locally, follow these steps:
 ### Installation
 1. **Clone the repository**
    ```sh
-   git clone https://github.com/Pultti/three_portfolio.git
-   cd three_portfolio
+   git clone https://github.com/Pultti/Web_Portfolio.git
+   cd Web_Portfolio
    ```
 2. **Install dependencies**
    ```sh

@@ -41,8 +41,7 @@ after:absolute after:inset-0 after:w-[0.125em] after:animate-caret after:bg-whit
           </h2>
 
           <p className="max-w-4xl text-center justify-center text-white xl:text-xl md:text-lg sm:text-sm text-md">
-            I&apos;m a passionate software developer with expertise also in systems engineering
-            using JavaScript, C# and SQL.
+            I&apos;m a passionate software developer with expertise also in systems engineering.
             I build interactive experiences and web applications, leveraging both
             front-end and back-end technologies. With a strong focus on clean
             code, collaboration, and continuous learning, I strive to create
