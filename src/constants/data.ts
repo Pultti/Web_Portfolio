@@ -532,3 +532,66 @@ export const skills = [
   "Slack",
   "Markdown",
 ];
+
+
+export const skillCards = [
+  /* ------------- Languages & DB ------------- */
+  { text: "C++",              icon: "cplusplus",            fill: "#00599C",  iconFill: "#fff", since: 2022 },
+  { text: "C",                icon: "c",                    fill: "#A8B9CC",  iconFill: "#00599C", since: 2022 },
+  { text: "C#",               icon: "csharp",               fill: "#239120",  iconFill: "#fff", since: 2022 },
+  { text: "MySQL",            icon: "mysql",                fill: "#4479A1",  iconFill: "#fff", since: 2022 },
+  { text: "Microsoft SQL",    icon: "microsoftsqlserver",   fill: "#CC2927",  iconFill: "#fff", since: 2022 },
+  { text: "PostgreSQL",       icon: "postgresql",           fill: "#4169E1",  iconFill: "#fff", since: 2022 },
+  { text: "Visual Basic",     icon: "dotnet",               fill: "#512BD4",  iconFill: "#fff", since: 2022 },
+  { text: "JavaScript",       icon: "javascript",           fill: "#F7DF1E",  iconFill: "#000", since: 2022 },
+  { text: "React",            icon: "react",                fill: "#61DAFB",  iconFill: "#000", since: 2022 },
+  { text: "HTML5",            icon: "html5",                fill: "#E34F26",  iconFill: "#fff", since: 2022 },
+  { text: "CSS3",             icon: "css3",                 fill: "#1572B6",  iconFill: "#fff", since: 2022 },
+  { text: "Python",           icon: "python",               fill: "#3776AB",  iconFill: "#FFD845", since: 2022 },
+  { text: "Bash / Scripting", icon: "gnubash",              fill: "#4EAA25",  iconFill: "#fff", since: 2022 },
+  { text: "Kotlin",           icon: "kotlin",               fill: "#7F52FF",  iconFill: "#fff", since: 2022 },
+  { text: "Java",             icon: "java",                 fill: "#007396",  iconFill: "#fff", since: 2022 },
+
+  /* ------------- Testing ------------- */
+  { text: "Mocha-Chai",       icon: "mocha",                fill: "#8D6748",  iconFill: "#fff", since: 2022 },
+  { text: "Robot Framework",  icon: "robotframework",       fill: "#00E368",  iconFill: "#000", since: 2022 },
+
+  /* ------------- Soft / Project skills ------------- */
+  { text: "Software Engineering", icon: "skillshare",       fill: "#00FF88",  iconFill: "#000", since: 2022 },
+  { text: "Project Managing",     icon: "asana",            fill: "#273347",  iconFill: "#fff", since: 2022 },
+  { text: "Team Collaboration",   icon: "teamviewer",       fill: "#0E62D0",  iconFill: "#fff", since: 2022 },
+  { text: "Clear Documentation",  icon: "readthedocs",      fill: "#8CA1AF",  iconFill: "#000", since: 2022 },
+  { text: "Lean Principles",      icon: "leanpub",          fill: "#02B875",  iconFill: "#fff", since: 2022 },
+
+  /* ------------- Agile / Boards ------------- */
+  { text: "Agile Methodologies",  icon: "jira",             fill: "#0052CC",  iconFill: "#fff", since: 2022 },
+  { text: "Jira",                 icon: "jira",             fill: "#0052CC",  iconFill: "#fff", since: 2022 },
+  { text: "Kanban",               icon: "trello",           fill: "#0052CC",  iconFill: "#fff", since: 2022 },
+  { text: "Trello",               icon: "trello",           fill: "#0052CC",  iconFill: "#fff", since: 2022 },
+  { text: "Scrum",                icon: "scrumalliance",    fill: "#6C757D",  iconFill: "#fff", since: 2022 },
+  { text: "Confluence",           icon: "confluence",       fill: "#172B4D",  iconFill: "#fff", since: 2022 },
+  { text: "Slack",                icon: "slack",            fill: "#4A154B",  iconFill: "#fff", since: 2022 },
+  { text: "Microsoft Teams",      icon: "microsoftteams",   fill: "#6264A7",  iconFill: "#fff", since: 2022 },
+  { text: "Discord",              icon: "discord",          fill: "#5865F2",  iconFill: "#fff", since: 2022 },
+
+  /* ------------- Version control & CI ------------- */
+  { text: "Git",                  icon: "git",              fill: "#F05032",  iconFill: "#fff", since: 2022 },
+  { text: "SVN",                  icon: "subversion",       fill: "#809CC9",  iconFill: "#fff", since: 2022 },
+  { text: "CI/CD",                icon: "circleci",         fill: "#343434",  iconFill: "#fff", since: 2022 },
+
+  /* ------------- IDE & Tools ------------- */
+  { text: "VS Code",              icon: "visualstudiocode", fill: "#007ACC",  iconFill: "#fff", since: 2022 },
+  { text: "Visual Studio",        icon: "visualstudio",     fill: "#5C2D91",  iconFill: "#fff", since: 2022 },
+  { text: "SQL Mgmt Studio",      icon: "microsoftsqlserver",fill: "#CC2927", iconFill: "#fff", since: 2022 },
+  { text: "Babylon Translator",   icon: "babel",            fill: "#F9DC3E",  iconFill: "#000", since: 2022 },
+  { text: "Android Studio",       icon: "androidstudio",    fill: "#3DDC84",  iconFill: "#fff", since: 2022 },
+  { text: "Qt Creator",           icon: "qt",               fill: "#41CD52",  iconFill: "#fff", since: 2022 },
+
+  /* ------------- OS / Infra ------------- */
+  { text: "Cloud",                icon: "googlecloud",      fill: "#4285F4",  iconFill: "#fff", since: 2022 },
+  { text: "Virtual Machines",     icon: "virtualbox",       fill: "#183A61",  iconFill: "#fff", since: 2022 },
+  { text: "Linux",                icon: "linux",            fill: "#FCC624",  iconFill: "#000", since: 2022 },
+  { text: "Kali Linux",           icon: "kalilinux",        fill: "#557C94",  iconFill: "#fff", since: 2022 },
+  { text: "Windows",              icon: "windows",          fill: "#0078D6",  iconFill: "#fff", since: 2022 },
+  { text: "Android",              icon: "android",          fill: "#3DDC84",  iconFill: "#fff", since: 2022 }
+];
