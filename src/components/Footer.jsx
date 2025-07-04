@@ -31,8 +31,8 @@ const Footer = () => {
               download
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-[#ff9720] text-black px-5 py-2 text-sm font-medium rounded-md hover:bg-[#e6891f] transition-colors"
-            >
+                className="bg-[#fe5042] text-white px-5 py-2 text-sm font-medium rounded-md
+             hover:bg-[#fc0865] transition-colors">
               Download CV
             </a>
           </motion.div>

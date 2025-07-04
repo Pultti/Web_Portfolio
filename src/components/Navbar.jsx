@@ -60,10 +60,11 @@ const Navbar = () => {
       <header
         className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
           isScrolled || isOpen
-            ? "bg-[#1a191e] border-b-2 border-[#ff9720] border-opacity-100 shadow-md"
-            : "bg-transparent border-b-2 border-[#ff9720] border-opacity-0"
+            ? "bg-[#1a191e]/50 shadow-md"
+            : "bg-transparent"
         }`}
       >
+
         <div className="mx-auto px-6 sm:px-8 md:px-10">
           <div className="flex justify-between items-center py-5">
             <a href="#home" className="flex items-center">
@@ -93,10 +94,8 @@ const Navbar = () => {
         </div>
 
         <div
-          className={`absolute left-0 right-0 bg-[#1a191e] transition-all duration-300 ease-in-out overflow-hidden z-20 mx-auto sm:hidden block ${
-            isOpen ? "max-h-screen" : "max-h-0"
-          }`}
-        >
+          className={`absolute left-0 right-0 bg-[#1a191e] transition-all duration-300 ease-in-out overflow-hidden z-20 mx-auto sm:hidden block 
+          ${isOpen ? "max-h-screen" : "max-h-0"} bg-[#1a191e]/50`}>
           <nav className="p-5">
             <NavItems />
           </nav>

@@ -72,7 +72,7 @@ const Contact = () => {
   };
 
   return (
-    <section className="w-full flex justify-center mb-20 px-4" id="contact">
+    <section className="w-full flex justify-center mb-0 sm:mb-20 px-4" id="contact">
       <motion.div
         className="flex flex-col w-full max-w-7xl items-center justify-start"
         initial={{ opacity: 0, y: 50 }}
@@ -82,7 +82,7 @@ const Contact = () => {
       >
         <div className="w-full text-left">
           <motion.h2
-            className="mb-10 xl:text-5xl md:text-4xl sm:text-3xl text-2xl font-black !leading-normal"
+            className="mb-0 sm:mb-10 xl:text-5xl md:text-4xl sm:text-3xl text-2xl font-black !leading-normal"
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, ease: "easeOut" }}
@@ -141,7 +141,9 @@ const Contact = () => {
 
             <motion.button
               type="submit"
-              className="bg-[#ff9720] text-black w-full sm:w-fit py-3 px-6 rounded-lg font-bold outline-none self-center sm:self-start"
+               className="bg-[#fe5042] text-white py-2 px-6 rounded-lg
+                hover:bg-[#fc0865] transition-colors
+                w-full sm:w-fit self-center sm:self-start"
               whileHover={{ scale: 1.05 }}
               transition={{ duration: 0.2, ease: "easeOut" }}
             >

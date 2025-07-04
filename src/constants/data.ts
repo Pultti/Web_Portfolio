@@ -327,9 +327,8 @@ export const workExperiences = [
       "Kirjoitin step-by-step-ohjeet ympäristön ja yhteyksien pystytykseen.",
       "VPN-etäohjaus & serveriyhteys drooneille.",
       "Raspberry Pi-kamerastream lennonaikaiseen UI:hin.",
-      "Viilasin dashboardin responsiiviseksi.",
       "Kokosin, johdotin ja konfiguroin X500 v2-droonin.",
-      "Dokumentoin teoreettisen lennonohjauspohjan jatkokehitykselle."
+      "Dokumentoin teoreettisen dronetukikohdan jatkokehitykselle."
       ]
       },
     ],
@@ -492,106 +491,124 @@ export const socialLinks = [
 ];
 
 export const skills = [
+  /* Core frontend */
   "React",
-  "Java",
-  "REST APIs",
+  "TypeScript",
   "JavaScript",
-  "C++",
-  "C#",
-  "C",
-  "Python",
-  "Jira",
-  "HTML5",
-  "CSS3",
+
+  /* Backend & APIs */
   "Node.js",
   "Express.js",
-  "Git",
-  "MongoDB",
+  "REST APIs",
+  "Python",
+  "C++",
+  "Java",
+
+  /* Data stores */
   "PostgreSQL",
-  "MySQL",
-  "Azure",
-  "Testing",
-  "Scrum",
-  "Agile",
-  "Scripting",
+  "MongoDB",
+
+  /* Dev workflow */
+  "Git",
   "GitHub",
-  "Confluence",
-  "TailwindCSS",
-  "Vs Code",
-  "Algorithms",
-  "UI/UX",
-  "SVN",
-  "Prettier",
-  "Vercel",
   "Docker",
-  "Figma",
-  "Kali Linux",
-  "WSL",
+  "CI/CD",
+
+  /* Cloud & Infra */
+  "Azure",
   "Linux",
-  "Virtual machines",
-  "Slack",
-  "Markdown",
+
+  /* Craftsmanship */
+  "Testing",
+  "Algorithms",
+
+  /* Team & UX */
+  "Agile",
+  "Scrum",
+  "TailwindCSS"
 ];
+
 
 
 export const skillCards = [
   /* ------------- Languages & DB ------------- */
-  { text: "C++",              icon: "cplusplus",            fill: "#00599C",  iconFill: "#fff", since: 2022 },
-  { text: "C",                icon: "c",                    fill: "#A8B9CC",  iconFill: "#00599C", since: 2022 },
-  { text: "C#",               icon: "csharp",               fill: "#239120",  iconFill: "#fff", since: 2022 },
-  { text: "MySQL",            icon: "mysql",                fill: "#4479A1",  iconFill: "#fff", since: 2022 },
-  { text: "Microsoft SQL",    icon: "microsoftsqlserver",   fill: "#CC2927",  iconFill: "#fff", since: 2022 },
-  { text: "PostgreSQL",       icon: "postgresql",           fill: "#4169E1",  iconFill: "#fff", since: 2022 },
-  { text: "Visual Basic",     icon: "dotnet",               fill: "#512BD4",  iconFill: "#fff", since: 2022 },
-  { text: "JavaScript",       icon: "javascript",           fill: "#F7DF1E",  iconFill: "#000", since: 2022 },
-  { text: "React",            icon: "react",                fill: "#61DAFB",  iconFill: "#000", since: 2022 },
-  { text: "HTML5",            icon: "html5",                fill: "#E34F26",  iconFill: "#fff", since: 2022 },
-  { text: "CSS3",             icon: "css3",                 fill: "#1572B6",  iconFill: "#fff", since: 2022 },
-  { text: "Python",           icon: "python",               fill: "#3776AB",  iconFill: "#FFD845", since: 2022 },
-  { text: "Bash / Scripting", icon: "gnubash",              fill: "#4EAA25",  iconFill: "#fff", since: 2022 },
-  { text: "Kotlin",           icon: "kotlin",               fill: "#7F52FF",  iconFill: "#fff", since: 2022 },
-  { text: "Java",             icon: "java",                 fill: "#007396",  iconFill: "#fff", since: 2022 },
+  { text: "C++",              icon: "cplusplus",            fill: "#00599C",  iconFill: "#fff", months: 12 },
+  { text: "C",                icon: "c",                    fill: "#A8B9CC",  iconFill: "#00599C", months: 6 },
+  { text: "C#",               icon: "csharp",               fill: "#239120",  iconFill: "#fff", months: 6 },
+  { text: "MySQL",            icon: "mysql",                fill: "#4479A1",  iconFill: "#fff", months: 6 },
+  { text: "Microsoft SQL",    icon: "microsoftsqlserver",   fill: "#CC2927",  iconFill: "#fff", months: 5 },
+  { text: "PostgreSQL",       icon: "postgresql",           fill: "#4169E1",  iconFill: "#fff", months: 6 },
+  { text: "SQL",              icon: "sqlite",               fill: "#F29111",  iconFill: "#fff", since: 2022 },
+  { text: "Databases / APIs", icon: "graphql",              fill: "#FFB300",  iconFill: "#000", since: 2022 },
+  { text: "Visual Basic",     icon: "dotnet",               fill: "#512BD4",  iconFill: "#fff", months: 4 },
+  { text: "JavaScript",       icon: "javascript",           fill: "#F7DF1E",  iconFill: "#000", months: 24 },
+  { text: "TypeScript",       icon: "typescript",           fill: "#3178C6",  iconFill: "#fff", since: 2025 },
+  { text: "React",            icon: "react",                fill: "#61DAFB",  iconFill: "#000", since: 2023 },
+  { text: "Three.js",         icon: "threedotjs",           fill: "#000000",  iconFill: "#fff", since: 2025 },
+  { text: "React Three Fiber",icon: "react",                fill: "#61DAFB",  iconFill: "#000", since: 2025 },
+  { text: "Drei",             icon: "react",                fill: "#61DAFB",  iconFill: "#000", since: 2025 },
+  { text: "HTML5",            icon: "html5",                fill: "#E34F26",  iconFill: "#fff", months: 24 },
+  { text: "CSS3",             icon: "css3",                 fill: "#1572B6",  iconFill: "#fff", months: 24 },
+  { text: "Tailwind CSS",     icon: "tailwindcss",          fill: "#06B6D4",  iconFill: "#fff", since: 2025 },
+  { text: "Python",           icon: "python",               fill: "#3776AB",  iconFill: "#FFD845", since: 2023 },
+  { text: "Bash / Scripting", icon: "gnubash",              fill: "#4EAA25",  iconFill: "#fff", since: 2023 },
+  { text: "Kotlin",           icon: "kotlin",               fill: "#7F52FF",  iconFill: "#fff", months: 3 },
+  { text: "Java",             icon: "openjdk",              fill: "#007396",  iconFill: "#fff", months: 3 },
 
   /* ------------- Testing ------------- */
-  { text: "Mocha-Chai",       icon: "mocha",                fill: "#8D6748",  iconFill: "#fff", since: 2022 },
-  { text: "Robot Framework",  icon: "robotframework",       fill: "#00E368",  iconFill: "#000", since: 2022 },
+  { text: "Mocha-Chai",       icon: "mocha",                fill: "#8D6748",  iconFill: "#fff", months: 3 },
+  { text: "Robot Framework",  icon: "robotframework",       fill: "#00E368",  iconFill: "#000", months: 4 },
+
+  /* ------------- Build / Lint / Format ------------- */
+  { text: "Vite",             icon: "vite",                fill: "#646CFF",  iconFill: "#fff", since: 2025 },
+  { text: "ESLint",           icon: "eslint",              fill: "#4B32C3",  iconFill: "#fff", since: 2025 },
+  { text: "Prettier",         icon: "prettier",            fill: "#F7B93E",  iconFill: "#000", since: 2025 },
 
   /* ------------- Soft / Project skills ------------- */
-  { text: "Software Engineering", icon: "skillshare",       fill: "#00FF88",  iconFill: "#000", since: 2022 },
-  { text: "Project Managing",     icon: "asana",            fill: "#273347",  iconFill: "#fff", since: 2022 },
+  { text: "Software Engineering", icon: "skillshare",       fill: "#00FF88",  iconFill: "#000", since: 2021 },
+  { text: "Project Managing",     icon: "asana",            fill: "#273347",  iconFill: "#fff", since: 2019 },
   { text: "Team Collaboration",   icon: "teamviewer",       fill: "#0E62D0",  iconFill: "#fff", since: 2022 },
-  { text: "Clear Documentation",  icon: "readthedocs",      fill: "#8CA1AF",  iconFill: "#000", since: 2022 },
-  { text: "Lean Principles",      icon: "leanpub",          fill: "#02B875",  iconFill: "#fff", since: 2022 },
+  { text: "Clear Documentation",  icon: "readthedocs",      fill: "#8CA1AF",  iconFill: "#000", since: 2019 },
+  { text: "Six Sigma - Yellow belt",      icon: "leanpub",  fill: "#02B875",  iconFill: "#fff", months: 3 },
 
   /* ------------- Agile / Boards ------------- */
   { text: "Agile Methodologies",  icon: "jira",             fill: "#0052CC",  iconFill: "#fff", since: 2022 },
-  { text: "Jira",                 icon: "jira",             fill: "#0052CC",  iconFill: "#fff", since: 2022 },
-  { text: "Kanban",               icon: "trello",           fill: "#0052CC",  iconFill: "#fff", since: 2022 },
-  { text: "Trello",               icon: "trello",           fill: "#0052CC",  iconFill: "#fff", since: 2022 },
-  { text: "Scrum",                icon: "scrumalliance",    fill: "#6C757D",  iconFill: "#fff", since: 2022 },
-  { text: "Confluence",           icon: "confluence",       fill: "#172B4D",  iconFill: "#fff", since: 2022 },
-  { text: "Slack",                icon: "slack",            fill: "#4A154B",  iconFill: "#fff", since: 2022 },
+  { text: "Jira",                 icon: "jira",             fill: "#0052CC",  iconFill: "#fff", months: 4 },
+  { text: "Kanban",               icon: "trello",           fill: "#0052CC",  iconFill: "#fff", months: 9 },
+  { text: "Trello",               icon: "trello",           fill: "#0052CC",  iconFill: "#fff", months: 3 },
+  { text: "Scrum",                icon: "scrumalliance",    fill: "#6C757D",  iconFill: "#fff", months: 12 },
+  { text: "Confluence",           icon: "confluence",       fill: "#172B4D",  iconFill: "#fff", months: 4 },
+  { text: "Slack",                icon: "slack",            fill: "#4A154B",  iconFill: "#fff", months: 4 },
   { text: "Microsoft Teams",      icon: "microsoftteams",   fill: "#6264A7",  iconFill: "#fff", since: 2022 },
-  { text: "Discord",              icon: "discord",          fill: "#5865F2",  iconFill: "#fff", since: 2022 },
+  { text: "Discord",              icon: "discord",          fill: "#5865F2",  iconFill: "#fff", since: 2015 },
+  { text: "Excel",                icon: "microsoftexcel",   fill: "#217346",  iconFill: "#fff", since: 2019 },
+  { text: "Office 365",           icon: "microsoft",        fill: "#F25022",  iconFill: "#fff", since: 2012 },
+
+  /* ------------- Miscellaneous ------------- */
+  { text: "German",   icon: "googletranslate", fill: "#000000", iconFill: "#FFCE00", since: 2024 },
+  { text: "English",  icon: "googletranslate", fill: "#1E90FF", iconFill: "#fff",    since: 2005 },
+  { text: "Swedish",  icon: "googletranslate", fill: "#005CBF", iconFill: "#fff",    since: 2008 },
+  { text: "Finnish",  icon: "googletranslate", fill: "#003580", iconFill: "#fff",    since: 1994 },
 
   /* ------------- Version control & CI ------------- */
   { text: "Git",                  icon: "git",              fill: "#F05032",  iconFill: "#fff", since: 2022 },
-  { text: "SVN",                  icon: "subversion",       fill: "#809CC9",  iconFill: "#fff", since: 2022 },
+  { text: "SVN",                  icon: "subversion",       fill: "#809CC9",  iconFill: "#fff", months: 4 },
   { text: "CI/CD",                icon: "circleci",         fill: "#343434",  iconFill: "#fff", since: 2022 },
 
   /* ------------- IDE & Tools ------------- */
   { text: "VS Code",              icon: "visualstudiocode", fill: "#007ACC",  iconFill: "#fff", since: 2022 },
   { text: "Visual Studio",        icon: "visualstudio",     fill: "#5C2D91",  iconFill: "#fff", since: 2022 },
   { text: "SQL Mgmt Studio",      icon: "microsoftsqlserver",fill: "#CC2927", iconFill: "#fff", since: 2022 },
-  { text: "Babylon Translator",   icon: "babel",            fill: "#F9DC3E",  iconFill: "#000", since: 2022 },
-  { text: "Android Studio",       icon: "androidstudio",    fill: "#3DDC84",  iconFill: "#fff", since: 2022 },
-  { text: "Qt Creator",           icon: "qt",               fill: "#41CD52",  iconFill: "#fff", since: 2022 },
+  { text: "Babylon Translator",   icon: "babel",            fill: "#F9DC3E",  iconFill: "#000", months: 4 },
+  { text: "Android Studio",       icon: "androidstudio",    fill: "#3DDC84",  iconFill: "#fff", months: 6 },
+  { text: "Qt Creator",           icon: "qt",               fill: "#41CD52",  iconFill: "#fff", months: 12 },
 
   /* ------------- OS / Infra ------------- */
-  { text: "Cloud",                icon: "googlecloud",      fill: "#4285F4",  iconFill: "#fff", since: 2022 },
+  { text: "Cloud",                icon: "googlecloud",      fill: "#4285F4",  iconFill: "#fff", since: 2023 },
   { text: "Virtual Machines",     icon: "virtualbox",       fill: "#183A61",  iconFill: "#fff", since: 2022 },
-  { text: "Linux",                icon: "linux",            fill: "#FCC624",  iconFill: "#000", since: 2022 },
-  { text: "Kali Linux",           icon: "kalilinux",        fill: "#557C94",  iconFill: "#fff", since: 2022 },
-  { text: "Windows",              icon: "windows",          fill: "#0078D6",  iconFill: "#fff", since: 2022 },
-  { text: "Android",              icon: "android",          fill: "#3DDC84",  iconFill: "#fff", since: 2022 }
+  { text: "Linux",                icon: "linux",            fill: "#FCC624",  iconFill: "#000", months: 12 },
+  { text: "Kali Linux",           icon: "kalilinux",        fill: "#557C94",  iconFill: "#fff", months: 3 },
+  { text: "Windows",              icon: "windows",          fill: "#0078D6",  iconFill: "#fff", since: 2010 },
+  { text: "Android",              icon: "android",          fill: "#3DDC84",  iconFill: "#fff", since: 2015 },
+
 ];
