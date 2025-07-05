@@ -77,8 +77,7 @@ const Projects = () => {
           <div className="grid w-full justify-items-center  
                           grid-cols-1 sm:grid-cols-2
                           gap-y-16 sm:gap-y-28
-                          gap-x-2 sm:gap-x-12
-                          pb-10 lg:pb-20">
+                          gap-x-2 sm:gap-x-12">
             {myProjects.map((proj) => (
               <ProjectCard key={proj.title} project={proj} />
             ))}

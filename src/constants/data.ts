@@ -174,7 +174,7 @@ export const myProjects = [
     subdesc:
       "It includes features for rating movies/actors, advanced user management, filtering, group creation and profile page.",
     href: "https://github.com/TVT22-6/movieApp",
-    source: "https://www.youtube.com/watch?v=UcAwD9BDibA",
+    source: "https://www.youtube.com/watch?v=RMH5vb1cAJQ",
     logo: "projects/movieRev.png",
     logoStyle: {
       backgroundColor: "#FFE066",
@@ -265,8 +265,8 @@ export const myProjects = [
     desc: "Python application that plays around with OS concepts and execution",
     subdesc:
       "Process Management, Storage Management, Memory Management, Process Scheduling, Multithreading, Scheduling Criteria, Semaphores, Monitors, Mutex Locks, Memory segmentation ",
-    href: "https://github.com/Pultti/React-ToDoApp-Firebase",
-    source: "https://www.youtube.com/watch?v=IkISV0GGR3s&source_ve_path=Mjg2NjY",
+    href: "https://github.com/Pultti/AdvancedSoftwareDevelopment",
+    source: "https://www.youtube.com/watch?v=1clCHkYiYHE",
     logo: "projects/python.png",
     logoStyle: {
       backgroundColor: "#63D2A1",
