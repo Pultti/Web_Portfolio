@@ -209,7 +209,7 @@ ExperienceCard.propTypes = {
 const Experience = () => (
   <section
     id="experience"
-    className="w-full flex justify-center mb-0 sm:mb-20 px-4"
+    className="w-full flex justify-center mb-20 px-4"
   >
     <div className="flex flex-col w-full max-w-7xl items-start justify-start">
       <motion.h2

@@ -23,8 +23,8 @@ const Projects = () => {
   }, []);
 
   return (
-    <section id="projects" className="w-full flex justify-center px-4">
-      <div className="flex flex-col w-full max-w-7xl items-start">
+    <section id="projects" className="w-full flex justify-center px-4 mb-20">
+      <div className="flex flex-col w-full max-w-7xl items-start ">
         <motion.h2
           className="xl:text-5xl md:text-4xl sm:text-3xl text-2xl font-black !leading-normal"
           initial={{ opacity: 0, y: 30 }}

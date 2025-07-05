@@ -72,7 +72,7 @@ const Contact = () => {
   };
 
   return (
-    <section className="w-full flex justify-center mb-0 sm:mb-20 px-4" id="contact">
+    <section className="w-full flex justify-center mb-20 px-4" id="contact">
       <motion.div
         className="flex flex-col w-full max-w-7xl items-center justify-start"
         initial={{ opacity: 0, y: 50 }}
