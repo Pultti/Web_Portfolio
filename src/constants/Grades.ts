@@ -110,7 +110,7 @@ export const Grades = [
   {
     course: "Thesis",
     grade: "5",
-    info: `User authentication to the .NET environment
+    info: `User authentication in the .NET environment
     
     Content:
     The student is able to apply theory in his solutions,

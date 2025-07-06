@@ -28,263 +28,13 @@ export const navLinks = [
   },
 ];
 
-export const myProjects = [
-  {
-    title: "Drone Fleet - Emergency Services",
-    desc: "Autonomous drone fleet with remote control capability — in the demo, we connected the app to a drone simulator through a server using a VPN connection.",
-    subdesc:
-      "System allows controlling multiple drones simultaneously, providing real-time video feed and telemetry data to the emergency services.",
-    href: "",
-    source: "https://www.youtube.com/watch?v=4woO_ZCdlvg",
-    logo: "projects/droneSweep.png",
-    logoStyle: {
-      backgroundColor: "#b18eff",
-      background:
-        "linear-gradient(0deg, #B18EFF50, #B18EFF50), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)",
-      border: "0.2px solid rgba(177, 142, 255, 1)",
-      boxShadow: "0px 0px 60px 0px rgba(177, 142, 255, 0.3)",
-    },
-    tags: [
-      {
-        id: 1,
-        name: "",
-        path: "",
-      },
-     
-    ],
-  },
-  {
-    title: "Toni Isopoussu - Portfolio Website",
-    desc: "My Portfolio Website, a showcase of my skills, projects, and experience as a software developer.",
-    subdesc:
-      "Built with modern web technologies, this portfolio highlights interactive 3D elements, smooth animations, and a responsive design for an engaging user experience.",
-    href: "",
-    source: "",
-    logo: "projects/PortfolioMain.png",
-    logoStyle: {
-      backgroundColor: "#4FC3F7",
-      background:
-        "linear-gradient(0deg, #4FC3F750, #4FC3F750), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)",
-      border: "0.2px solid rgba(79, 195, 247, 1)",
-      boxShadow: "0px 0px 60px 0px rgba(79, 195, 247, 0.3)",
-    },
-    tags: [
-      {
-        id: 1,
-        name: "React.js",
-        path: "icons/react.svg",
-      },
-      {
-        id: 2,
-        name: "TailwindCSS",
-        path: "icons/tailwindcss-icon.svg",
-      },
-      {
-        id: 3,
-        name: "TypeScript",
-        path: "icons/typescript-icon.svg",
-      },
-      {
-        id: 4,
-        name: "Java Script",
-        path: "icons/javascript.svg",
-      },
-      {
-        id: 5,
-        name: "Three.js",
-        path: "icons/threejs.svg",
-      },
-      {
-        id: 6,
-        name: "HTML",
-        path: "icons/html-5.svg",
-      },
-      {
-        id: 7,
-        name: "CSS",
-        path: "icons/css-3.svg",
-      },
-      {
-        id: 8,
-        name: "Prettier",
-        path: "icons/prettier.svg",
-      },
-      {
-        id: 9,
-        name: "ESLint",
-        path: "icons/eslint.svg",
-      },
-      {
-        id: 10,
-        name: "Vite",
-        path: "icons/vite.svg",
-      },
-    ],
-  },
-  {
-    title: "Tetris Game - Grade 4",
-    desc: "Built by using Arduino and C++ with a 3D printed case and TFT screen.",
-    subdesc:
-      "Starting point of my journey as a software developer. that reflects my early passion for all kinds of coding.",
-    href: "https://github.com/Pultti/Tetris",
-    source: "https://www.youtube.com/watch?v=cEtRItxPt2c",
-    logo: "projects/tetris.png",
-    logoStyle: {
-      backgroundColor: "#A0F0BC",
-      background:
-        "linear-gradient(0deg, #A0F0BC50, #A0F0BC50), linear-gradient(180deg, rgba(255, 255, 255, 0.95) 0%, rgba(208, 213, 221, 0.85) 100%)",
-      border: "0.2px solid rgba(160, 240, 188, 1)",
-      boxShadow: "0px 0px 60px 0px rgba(135, 234, 174, 0.4)",
-    },
-    tags: [
-      {
-        id: 1,
-        name: "",
-        path: "",
-      },
-    ],
-  },
-  {
-    title: "ATM Simulator - Grade 5",
-    desc: "Local ATM sim build with C++, node and MySQL database.",
-    subdesc:
-      "Functioning ATM system that allows users to perform basic banking operations like balance inquiries, deposits, and withdrawals.",
-    href: "https://github.com/Pultti/ATMSimulator",
-    source: "https://www.youtube.com/watch?v=UcAwD9BDibA",
-    logo: "projects/atm2.png",
-    logoStyle: {
-      backgroundColor: "#FF4C4C",
-      background:
-        "linear-gradient(0deg, #FF4C4C50, #FF4C4C50), linear-gradient(180deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 200, 200, 0.85) 100%)",
-      border: "0.2px solid rgba(255, 76, 76, 1)",
-      boxShadow: "0px 0px 60px 0px rgba(183, 28, 28, 0.4)",
-    },
-    tags: [
-      {
-        id: 1,
-        name: "",
-        path: "",
-      },
-    
-    ],
-  },
-   {
-    title: "Movie Review App - Grade 5",
-    desc: "React based web-application with a PostgreSQL database that uses open data sources such as TMDB",
-    subdesc:
-      "It includes features for rating movies/actors, advanced user management, filtering, group creation and profile page.",
-    href: "https://github.com/TVT22-6/movieApp",
-    source: "https://www.youtube.com/watch?v=RMH5vb1cAJQ",
-    logo: "projects/movieRev.png",
-    logoStyle: {
-      backgroundColor: "#FFE066",
-      background:
-        "linear-gradient(0deg, #FFE06650, #FFE06650), linear-gradient(180deg, rgba(255,255,255,0.95) 0%, rgba(255,241,200,0.85) 100%)",
-      border: "0.2px solid rgba(255,224,102,1)",
-      boxShadow: "0px 0px 60px 0px rgba(255,224,102,0.4)",
-    },
-    tags: [
-      {
-        id: 1,
-        name: "React.js",
-        path: "icons/react.svg",
-      },
-    ],
-  },
-   {
-    title: "ParKing - Grade 5",
-    desc: "React mobile application with Firebase database that uses open data sources such as Google Firebase, -maps & Paypal",
-    subdesc:
-      "It includes features for booking parking spots, advanced user management, filtering, group creation and profile page and functiong payment system.",
-    href: "https://github.com/Pultti/MarketApp_OAMK",
-    source: "https://www.youtube.com/watch?v=IaRxllwPsK8&t=2s",
-    logo: "projects/ParKing.png",
-    logoStyle: {
-      backgroundColor: "#FF6347",
-      background: "linear-gradient(0deg, #FF634750, #FF634750), linear-gradient(180deg, rgba(255,255,255,0.95) 0%, rgba(255,220,220,0.85) 100%)",
-      border: "0.2px solid rgba(255,99,71,1)",
-      boxShadow: "0px 0px 60px 0px rgba(255,99,71,0.4)",
-    },
-    tags: [
-      {
-        id: 1,
-        name: "React.js",
-        path: "icons/react.svg",
-      },
-  
-    ],
-  },
-  {
-    title: "DogCare - Grade 5",
-    desc: "Kotlin mobile application with Firebase database that uses open data sources such as Google Firebase",
-    subdesc:
-      "Contains different kind of features and alert system for dog owners, such as random generator that suggests activities",
-    href: "https://github.com/Pultti/DogCare_OAMK",
-    source: "https://www.youtube.com/watch?v=mPOYRM5Cv1Q&t=391s",
-    logo: "projects/dogCare.png",
-    logoStyle: {
-     backgroundColor: "#F783AC",
-     background: "linear-gradient(0deg, #F783AC50, #F783AC50), linear-gradient(180deg, rgba(255,255,255,0.95) 0%, rgba(255,220,235,0.85) 100%)",
-     border: "0.2px solid rgba(247,131,172,1)",
-     boxShadow: "0px 0px 60px 0px rgba(247,131,172,0.4)",
-    },
-    tags: [
-      {
-        id: 1,
-        name: "",
-        path: "",
-      },
-  
-    ],
-  },
-    {
-    title: "ToDo App - Grade 5",
-    desc: "React mobile application with Firebase database that uses open data sources such as BoredAPI",
-    subdesc:
-      "Assists in time management and gives break activity, ensuring users can efficiently organize their day.",
-    href: "https://github.com/Pultti/React-ToDoApp-Firebase",
-    source: "https://www.youtube.com/watch?v=IkISV0GGR3s&source_ve_path=Mjg2NjY",
-    logo: "projects/toDo.png",
-    logoStyle: {
-      backgroundColor: "#1565C0",
-      background: "linear-gradient(0deg, #1565C050, #1565C050), linear-gradient(180deg, rgba(255,255,255,0.95) 0%, rgba(200,220,255,0.85) 100%)",
-      border: "0.2px solid rgba(21,101,192,1)",
-      boxShadow: "0px 0px 60px 0px rgba(21,101,192,0.4)",
-    },
-    tags: [
-     {
-        id: 1,
-        name: "React.js",
-        path: "icons/react.svg",
-      },
-  
-    ],
-  },
-   {
-    title: "Advanced software development - Grade 5",
-    desc: "Python application that plays around with OS concepts and execution",
-    subdesc:
-      "Process Management, Storage Management, Memory Management, Process Scheduling, Multithreading, Scheduling Criteria, Semaphores, Monitors, Mutex Locks, Memory segmentation ",
-    href: "https://github.com/Pultti/AdvancedSoftwareDevelopment",
-    source: "https://www.youtube.com/watch?v=1clCHkYiYHE",
-    logo: "projects/python.png",
-    logoStyle: {
-      backgroundColor: "#63D2A1",
-      background: "linear-gradient(0deg, #63D2A150, #63D2A150), linear-gradient(180deg, rgba(255,255,255,0.95) 0%, rgba(200,255,235,0.85) 100%)",
-      border: "0.2px solid rgba(99,210,161,1)",
-      boxShadow: "0px 0px 60px 0px rgba(99,210,161,0.4)",
-    },
-    tags: [
-      {
-        id: 1,
-        name: "",
-        path: "",
-      },
-  
-    ],
-  },
-  
+
+export const socialLinks = [
+  { url: "https://github.com/Pultti" },
+  { url: "https://www.linkedin.com/in/toni-isopoussu-toni/" },
 ];
+
+
 
 export const workExperiences = [
   {
@@ -319,7 +69,7 @@ export const workExperiences = [
     ],
     projects: [
       {
-        name: "Drone fleet - https://www.youtube.com/watch?v=4woO_ZCdlvg",
+        name: "Autonomous drone fleet",
         description: "Autonomous drone fleet that can be remotely controlled by the emergency services",
         link: "https://www.youtube.com/watch?v=4woO_ZCdlvg",
         details: [
@@ -383,7 +133,7 @@ export const workExperiences = [
         link: "",
       },
        {
-        name: "Movie review app - React/PostGreSQL",
+        name: "Movie review app - React/Node/PostGreSQL",
         description: "",
         link: "",
       },
@@ -408,12 +158,12 @@ export const workExperiences = [
         link: "",
       },
       {
-        name: "Pen testing - VMs/Kali/Labs",
+        name: "Pen. testing - VMs/Kali/Labs",
         description: "",
         link: "",
       },
        {
-        name: "Thesis - https://www.theseus.fi/handle/10024/873878?show=full",
+        name: "Thesis - User authentication in the .NET environment",
         description: "",
         link: "",
       },
@@ -468,13 +218,12 @@ export const workExperiences = [
     "Discipline",
     "Problem-Solving",
     "Adaptability",
-    "Situational Awareness",
   ],
    },
   {
     id: 6,
-    company: "High school - Kastelli",
-    position: "",
+    company: "Kastelli - 3 years",
+    position: "High School",
     duration: "August 2012 - June 2015",
     icon: "",
     technologies: [
@@ -485,54 +234,266 @@ export const workExperiences = [
   },
 ];
 
-export const socialLinks = [
-  { url: "https://github.com/Pultti" },
-  { url: "https://www.linkedin.com/in/toni-isopoussu-toni/" },
+
+
+export const myProjects = [
+  {
+    title: "Drone Fleet - Emergency Services",
+    desc: "Autonomous drone fleet with remote control capability — in the demo, we connected the app to a drone simulator through a server using a VPN connection.",
+    subdesc:
+      "System allows controlling multiple drones simultaneously, providing real-time video feed and telemetry data to the emergency services.",
+    href: "",
+    source: "https://www.youtube.com/watch?v=4woO_ZCdlvg",
+    logo: "projects/droneSweep.png",
+    logoStyle: {
+      backgroundColor: "#b18eff",
+      background:
+        "linear-gradient(0deg, #B18EFF50, #B18EFF50), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)",
+      border: "0.2px solid rgba(177, 142, 255, 1)",
+      boxShadow: "0px 0px 60px 0px rgba(177, 142, 255, 0.3)",
+    },
+  tags: [
+  { id: 1,  name: "QML",      icon: "qt",        color: "#41CD52" },
+  { id: 2,  name: "C++",      icon: "cplusplus", color: "#00599C" },
+  { id: 3,  name: "Python",   icon: "python",    color: "#3776AB" },
+  { id: 5,  name: "Git",      icon: "git",      color: "#F05032" },
+  { id: 6,  name: "Kanban",   icon: "trello", color: "#3179CB" },
+  { id: 7,  name: "Discord",  icon: "discord",  color: "#5865F2" },
+  { id: 8,  name: "Docker",   icon: "docker",   color: "#2496ED" },
+  { id: 9,  name: "WSL",      icon: "microsoft", color: "#0078D6" },
+  { id: 10, name: "MAVSDK",   icon: "digitalocean", color: "#0080FF" },
+  { id: 11, name: "IoT",      icon: "raspberrypi", color: "#F59E0B" },
+]
+,
+  },
+  {
+    title: "Toni Isopoussu - Portfolio Website",
+    desc: "My Portfolio Website, a showcase of my skills, projects, and experience as a software developer.",
+    subdesc:
+      "Built with modern web technologies, this portfolio highlights interactive 3D elements, smooth animations, and a responsive design for an engaging user experience.",
+    href: "",
+    source: "",
+    logo: "projects/PortfolioMain.png",
+    logoStyle: {
+      backgroundColor: "#4FC3F7",
+      background:
+        "linear-gradient(0deg, #4FC3F750, #4FC3F750), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)",
+      border: "0.2px solid rgba(79, 195, 247, 1)",
+      boxShadow: "0px 0px 60px 0px rgba(79, 195, 247, 0.3)",
+    },
+    tags: [
+  { id: 1,  name: "VS Code",     icon: "visualstudiocode", color: "#007ACC" },
+  { id: 2,  name: "React.js",    icon: "react",            color: "#61DAFB" },
+  { id: 3,  name: "TailwindCSS", icon: "tailwindcss",      color: "#38BDF8" },
+  { id: 4,  name: "TypeScript",  icon: "typescript",       color: "#3178C6" },
+  { id: 5,  name: "JavaScript",  icon: "javascript",       color: "#F7DF1E" },
+  { id: 6,  name: "Three.js",    icon: "threedotjs",     color: "#000000" },
+  { id: 7,  name: "HTML",        icon: "html5",            color: "#E34F26" },
+  { id: 8,  name: "CSS",         icon: "css3",             color: "#1572B6" },
+  { id: 9,  name: "Prettier",    icon: "prettier",         color: "#F7B93E" },
+  { id: 10, name: "ESLint",      icon: "eslint",           color: "#4B32C3" },
+  { id: 11, name: "Vite",        icon: "vite",             color: "#646CFF" },
+],
+  },
+  {
+    title: "Tetris Game",
+    desc: "Built by using Arduino and C++ with a 3D printed case and TFT screen.",
+    subdesc:
+      "Starting point of my journey as a software developer. that reflects my early passion for all kinds of coding.",
+    href: "https://github.com/Pultti/Tetris",
+    source: "https://www.youtube.com/watch?v=cEtRItxPt2c",
+    logo: "projects/tetris.png",
+    logoStyle: {
+      backgroundColor: "#A0F0BC",
+      background:
+        "linear-gradient(0deg, #A0F0BC50, #A0F0BC50), linear-gradient(180deg, rgba(255, 255, 255, 0.95) 0%, rgba(208, 213, 221, 0.85) 100%)",
+      border: "0.2px solid rgba(160, 240, 188, 1)",
+      boxShadow: "0px 0px 60px 0px rgba(135, 234, 174, 0.4)",
+    },
+    tags: [
+    { id: 1,  name: "C",           icon: "c",           color: "#A8B9CC" },
+    { id: 2,  name: "Arduino IDE", icon: "arduino",     color: "#00979D" },
+    { id: 3,  name: "Qt",      icon: "qt",        color: "#41CD52" },
+  ],
+  },
+  {
+    title: "ATM Simulator",
+    desc: "Local ATM sim build with C++, node and MySQL database.",
+    subdesc:
+      "Functioning ATM system that allows users to perform basic banking operations like balance inquiries, deposits, and withdrawals.",
+    href: "https://github.com/Pultti/ATMSimulator",
+    source: "https://www.youtube.com/watch?v=UcAwD9BDibA",
+    logo: "projects/atm2.png",
+    logoStyle: {
+      backgroundColor: "#FF4C4C",
+      background:
+        "linear-gradient(0deg, #FF4C4C50, #FF4C4C50), linear-gradient(180deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 200, 200, 0.85) 100%)",
+      border: "0.2px solid rgba(255, 76, 76, 1)",
+      boxShadow: "0px 0px 60px 0px rgba(183, 28, 28, 0.4)",
+    },
+    tags: [
+  { id: 1,  name: "C++",      icon: "cplusplus", color: "#00599C" },
+  { id: 2,  name: "JavaScript",       icon: "javascript", color: "#F7DF1E" },
+  { id: 3,  name: "Node",          icon: "nodedotjs", color: "#339933" },
+  { id: 4,  name: "VS Code",          icon: "visualstudiocode", color: "#007ACC" },
+  { id: 5,  name: "MySQL",            icon: "mysql",       color: "#4479A1" },
+  { id: 6,  name: "Postman",          icon: "postman",     color: "#FF6C37" },
+   { id: 7,  name: "Qt", icon: "qt",          color: "#41CD52" },
+]
+  },
+   {
+    title: "Movie Review App",
+    desc: "React based web-application with a PostgreSQL database that uses open data sources such as TMDB",
+    subdesc:
+      "It includes features for rating movies/actors, advanced user management, filtering, group creation and profile page.",
+    href: "https://github.com/TVT22-6/movieApp",
+    source: "https://www.youtube.com/watch?v=RMH5vb1cAJQ",
+    logo: "projects/movieRev.png",
+    logoStyle: {
+      backgroundColor: "#FFE066",
+      background:
+        "linear-gradient(0deg, #FFE06650, #FFE06650), linear-gradient(180deg, rgba(255,255,255,0.95) 0%, rgba(255,241,200,0.85) 100%)",
+      border: "0.2px solid rgba(255,224,102,1)",
+      boxShadow: "0px 0px 60px 0px rgba(255,224,102,0.4)",
+    },
+    tags: [
+  { id: 1,  name: "VS Code",           icon: "visualstudiocode", color: "#007ACC" },
+  { id: 2,  name: "React",             icon: "react",        color: "#61DAFB" },
+  { id: 3,  name: "JavaScript",        icon: "javascript",   color: "#F7DF1E" },
+  { id: 4,  name: "Node.js",           icon: "nodedotjs",    color: "#339933" },
+  { id: 5,  name: "PostgreSQL",        icon: "postgresql",   color: "#336791" },
+  { id: 6,  name: "Firebase",          icon: "firebase",     color: "#FFCA28" },
+  { id: 7,  name: "TMDB",              icon: "themoviedatabase", color: "#01B4E4" },
+  { id: 8,  name: "Postman",           icon: "postman",      color: "#FF6C37" },
+  { id: 9,  name: "Mocha",             icon: "mocha",        color: "#8D6748" },
+  { id: 10, name: "Chai",              icon: "chai",         color: "#A30701" },
+],
+  },
+   {
+    title: "ParKing",
+    desc: "React mobile application with Firebase database that uses open data sources such as Google Firebase, -maps & Paypal",
+    subdesc:
+      "It includes features for booking parking spots, advanced user management, filtering, group creation and profile page and functiong payment system.",
+    href: "https://github.com/Pultti/MarketApp_OAMK",
+    source: "https://www.youtube.com/watch?v=IaRxllwPsK8&t=2s",
+    logo: "projects/ParKing.png",
+    logoStyle: {
+      backgroundColor: "#FF6347",
+      background: "linear-gradient(0deg, #FF634750, #FF634750), linear-gradient(180deg, rgba(255,255,255,0.95) 0%, rgba(255,220,220,0.85) 100%)",
+      border: "0.2px solid rgba(255,99,71,1)",
+      boxShadow: "0px 0px 60px 0px rgba(255,99,71,0.4)",
+    },
+    tags: [
+  { id: 1,  name: "VS Code",       icon: "visualstudiocode", color: "#007ACC" },
+  { id: 2,  name: "React Native",  icon: "react",            color: "#61DAFB" },
+  { id: 3,  name: "Firebase",      icon: "firebase",         color: "#FFCA28" },
+  { id: 4,  name: "Google Maps",   icon: "googlemaps",       color: "#4285F4" },
+  { id: 5,  name: "PayPal",        icon: "paypal",           color: "#00457C" },
+],
+  },
+  {
+    title: "DogCare",
+    desc: "Kotlin mobile application with Firebase database that uses open data sources such as Google Firebase",
+    subdesc:
+      "Contains different kind of features and alert system for dog owners, such as random generator that suggests activities",
+    href: "https://github.com/Pultti/DogCare_OAMK",
+    source: "https://www.youtube.com/watch?v=mPOYRM5Cv1Q&t=391s",
+    logo: "projects/dogCare.png",
+    logoStyle: {
+     backgroundColor: "#F783AC",
+     background: "linear-gradient(0deg, #F783AC50, #F783AC50), linear-gradient(180deg, rgba(255,255,255,0.95) 0%, rgba(255,220,235,0.85) 100%)",
+     border: "0.2px solid rgba(247,131,172,1)",
+     boxShadow: "0px 0px 60px 0px rgba(247,131,172,0.4)",
+    },
+    tags: [
+  { id: 1,  name: "Android Studio", icon: "androidstudio", color: "#3DDC84" },
+  { id: 2,  name: "Kotlin",         icon: "kotlin",        color: "#7F52FF" },
+  { id: 3,  name: "Firebase",       icon: "firebase",      color: "#FFCA28" },
+],
+  },
+    {
+    title: "ToDo App",
+    desc: "React mobile application with Firebase database that uses open data sources such as BoredAPI",
+    subdesc:
+      "Assists in time management and gives break activity, ensuring users can efficiently organize their day.",
+    href: "https://github.com/Pultti/React-ToDoApp-Firebase",
+    source: "https://www.youtube.com/watch?v=IkISV0GGR3s&source_ve_path=Mjg2NjY",
+    logo: "projects/toDo.png",
+    logoStyle: {
+      backgroundColor: "#1565C0",
+      background: "linear-gradient(0deg, #1565C050, #1565C050), linear-gradient(180deg, rgba(255,255,255,0.95) 0%, rgba(200,220,255,0.85) 100%)",
+      border: "0.2px solid rgba(21,101,192,1)",
+      boxShadow: "0px 0px 60px 0px rgba(21,101,192,0.4)",
+    },
+    tags: [
+  { id: 1, name: "VS Code",  icon: "visualstudiocode", color: "#007ACC" },
+  { id: 2, name: "React",    icon: "react",            color: "#61DAFB" },
+  { id: 3, name: "Firebase", icon: "firebase",         color: "#FFCA28" },
+],
+  },
+   {
+    title: "Advanced software development",
+    desc: "Python application that plays around with OS concepts and execution",
+    subdesc:
+      "Process Management, Storage Management, Memory Management, Process Scheduling, Multithreading, Scheduling Criteria, Semaphores, Monitors, Mutex Locks, Memory segmentation ",
+    href: "https://github.com/Pultti/AdvancedSoftwareDevelopment",
+    source: "https://www.youtube.com/watch?v=1clCHkYiYHE",
+    logo: "projects/python.png",
+    logoStyle: {
+      backgroundColor: "#63D2A1",
+      background: "linear-gradient(0deg, #63D2A150, #63D2A150), linear-gradient(180deg, rgba(255,255,255,0.95) 0%, rgba(200,255,235,0.85) 100%)",
+      border: "0.2px solid rgba(99,210,161,1)",
+      boxShadow: "0px 0px 60px 0px rgba(99,210,161,0.4)",
+    },
+    tags: [
+  { id: 1, name: "VS Code",  icon: "visualstudiocode", color: "#007ACC" },
+  { id: 2, name: "Python",    icon: "python",   color: "#3776AB" },
+ ],
+  },
+  
 ];
 
+
 export const skills = [
-  /* Core frontend */
   "React",
   "TypeScript",
   "JavaScript",
+  "Python",
+  "CSS",
 
-  /* Backend & APIs */
   "Node.js",
   "Express.js",
   "REST APIs",
-  "Python",
   "C++",
   "Java",
 
-  /* Data stores */
+  "Microsoft SQL",
   "PostgreSQL",
   "MongoDB",
+  "MySQL",
 
-  /* Dev workflow */
   "Git",
   "GitHub",
   "Docker",
   "CI/CD",
 
-  /* Cloud & Infra */
   "Azure",
   "Linux",
+  "Windows",
+  "VMs",
 
-  /* Craftsmanship */
   "Testing",
   "Algorithms",
 
-  /* Team & UX */
   "Agile",
   "Scrum",
-  "TailwindCSS"
 ];
 
 
 
 export const skillCards = [
   /* ------------- Languages & DB ------------- */
-  { text: "C++",              icon: "cplusplus",            fill: "#00599C",  iconFill: "#fff", months: 12 },
+  { text: "C++",              icon: "cplusplus",            fill: "#00599C",  iconFill: "#fff", since: 2022 },
   { text: "C",                icon: "c",                    fill: "#A8B9CC",  iconFill: "#00599C", months: 6 },
   { text: "C#",               icon: "csharp",               fill: "#239120",  iconFill: "#fff", months: 6 },
   { text: "MySQL",            icon: "mysql",                fill: "#4479A1",  iconFill: "#fff", months: 6 },
@@ -554,6 +515,9 @@ export const skillCards = [
   { text: "Bash / Scripting", icon: "gnubash",              fill: "#4EAA25",  iconFill: "#fff", since: 2023 },
   { text: "Kotlin",           icon: "kotlin",               fill: "#7F52FF",  iconFill: "#fff", months: 3 },
   { text: "Java",             icon: "openjdk",              fill: "#007396",  iconFill: "#fff", months: 3 },
+  { text: "Spring Boot",      icon: "spring",              fill: "#6DB33F",  iconFill: "#fff", months: 3 },
+  { text: "Node.js",          icon: "nodedotjs",           fill: "#339933",  iconFill: "#fff", months: 6 },
+
 
   /* ------------- Testing ------------- */
   { text: "Mocha-Chai",       icon: "mocha",                fill: "#8D6748",  iconFill: "#fff", months: 3 },
@@ -597,7 +561,7 @@ export const skillCards = [
 
   /* ------------- IDE & Tools ------------- */
   { text: "VS Code",              icon: "visualstudiocode", fill: "#007ACC",  iconFill: "#fff", since: 2022 },
-  { text: "Visual Studio",        icon: "visualstudio",     fill: "#5C2D91",  iconFill: "#fff", since: 2022 },
+  { text: "Visual Studio",        icon: "visualstudio",     fill: "#5C2D91",  iconFill: "#fff", months: 6 },
   { text: "SQL Mgmt Studio",      icon: "microsoftsqlserver",fill: "#CC2927", iconFill: "#fff", since: 2022 },
   { text: "Babylon Translator",   icon: "babel",            fill: "#F9DC3E",  iconFill: "#000", months: 4 },
   { text: "Android Studio",       icon: "androidstudio",    fill: "#3DDC84",  iconFill: "#fff", months: 6 },

@@ -79,7 +79,7 @@ const Projects = () => {
                           gap-y-16 sm:gap-y-28
                           gap-x-2 sm:gap-x-12">
             {myProjects.map((proj) => (
-              <ProjectCard key={proj.title} project={proj} />
+              <ProjectCard key={proj.title} project={proj} staticMode />
             ))}
           </div>
         </div>
