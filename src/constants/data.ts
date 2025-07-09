@@ -1,4 +1,5 @@
 import { Grades } from "./Grades";
+import { droneFleetInfo, tetrisInfo, atmInfo, movieAppInfo, ParKingInfo, dogCareInfo, ToDoAppInfo, PythonOsInfo } from "../constants/projectInfo";
 
 export const navLinks = [
   {
@@ -72,14 +73,6 @@ export const workExperiences = [
         name: "Autonomous drone fleet",
         description: "Autonomous drone fleet that can be remotely controlled by the emergency services",
         link: "https://www.youtube.com/watch?v=4woO_ZCdlvg",
-        details: [
-      "Rakensin simulaattori ⇄ serveri ⇄ drone -kokonaisuuden viikossa – kaksi 8 hengen tiimiä haki ratkaisua 2 kk.",
-      "Kirjoitin step-by-step-ohjeet ympäristön ja yhteyksien pystytykseen.",
-      "VPN-etäohjaus & serveriyhteys drooneille.",
-      "Raspberry Pi-kamerastream lennonaikaiseen UI:hin.",
-      "Kokosin, johdotin ja konfiguroin X500 v2-droonin.",
-      "Dokumentoin teoreettisen dronetukikohdan jatkokehitykselle."
-      ]
       },
     ],
   },
@@ -245,6 +238,7 @@ export const myProjects = [
     href: "",
     source: "https://www.youtube.com/watch?v=4woO_ZCdlvg",
     logo: "projects/droneSweep.png",
+    info: droneFleetInfo,
     logoStyle: {
       backgroundColor: "#b18eff",
       background:
@@ -263,8 +257,7 @@ export const myProjects = [
   { id: 9,  name: "WSL",      icon: "microsoft", color: "#0078D6" },
   { id: 10, name: "MAVSDK",   icon: "digitalocean", color: "#0080FF" },
   { id: 11, name: "IoT",      icon: "raspberrypi", color: "#F59E0B" },
-]
-,
+],
   },
   {
     title: "Toni Isopoussu - Portfolio Website",
@@ -302,6 +295,7 @@ export const myProjects = [
       "Starting point of my journey as a software developer. that reflects my early passion for all kinds of coding.",
     href: "https://github.com/Pultti/Tetris",
     source: "https://www.youtube.com/watch?v=cEtRItxPt2c",
+    info: tetrisInfo,
     logo: "projects/tetris.png",
     logoStyle: {
       backgroundColor: "#A0F0BC",
@@ -313,16 +307,16 @@ export const myProjects = [
     tags: [
     { id: 1,  name: "C",           icon: "c",           color: "#A8B9CC" },
     { id: 2,  name: "Arduino IDE", icon: "arduino",     color: "#00979D" },
-    { id: 3,  name: "Qt",      icon: "qt",        color: "#41CD52" },
   ],
   },
   {
     title: "ATM Simulator",
-    desc: "Local ATM sim build with C++, node and MySQL database.",
+    desc: "Local ATM sim. build with C++, Node and MySQL database.",
     subdesc:
       "Functioning ATM system that allows users to perform basic banking operations like balance inquiries, deposits, and withdrawals.",
     href: "https://github.com/Pultti/ATMSimulator",
     source: "https://www.youtube.com/watch?v=UcAwD9BDibA",
+    info: atmInfo,
     logo: "projects/atm2.png",
     logoStyle: {
       backgroundColor: "#FF4C4C",
@@ -348,6 +342,7 @@ export const myProjects = [
       "It includes features for rating movies/actors, advanced user management, filtering, group creation and profile page.",
     href: "https://github.com/TVT22-6/movieApp",
     source: "https://www.youtube.com/watch?v=RMH5vb1cAJQ",
+    info: movieAppInfo,
     logo: "projects/movieRev.png",
     logoStyle: {
       backgroundColor: "#FFE066",
@@ -372,10 +367,10 @@ export const myProjects = [
    {
     title: "ParKing",
     desc: "React mobile application with Firebase database that uses open data sources such as Google Firebase, -maps & Paypal",
-    subdesc:
-      "It includes features for booking parking spots, advanced user management, filtering, group creation and profile page and functiong payment system.",
+    subdesc: "It includes features for booking parking spots, advanced user management, filtering, group creation, profile page and functioning payment system.",
     href: "https://github.com/Pultti/MarketApp_OAMK",
     source: "https://www.youtube.com/watch?v=IaRxllwPsK8&t=2s",
+    info: ParKingInfo,
     logo: "projects/ParKing.png",
     logoStyle: {
       backgroundColor: "#FF6347",
@@ -398,6 +393,7 @@ export const myProjects = [
       "Contains different kind of features and alert system for dog owners, such as random generator that suggests activities",
     href: "https://github.com/Pultti/DogCare_OAMK",
     source: "https://www.youtube.com/watch?v=mPOYRM5Cv1Q&t=391s",
+    info: dogCareInfo,
     logo: "projects/dogCare.png",
     logoStyle: {
      backgroundColor: "#F783AC",
@@ -418,6 +414,7 @@ export const myProjects = [
       "Assists in time management and gives break activity, ensuring users can efficiently organize their day.",
     href: "https://github.com/Pultti/React-ToDoApp-Firebase",
     source: "https://www.youtube.com/watch?v=IkISV0GGR3s&source_ve_path=Mjg2NjY",
+    info: ToDoAppInfo,
     logo: "projects/toDo.png",
     logoStyle: {
       backgroundColor: "#1565C0",
@@ -435,8 +432,9 @@ export const myProjects = [
     title: "Advanced software development",
     desc: "Python application that plays around with OS concepts and execution",
     subdesc:
-      "Process Management, Storage Management, Memory Management, Process Scheduling, Multithreading, Scheduling Criteria, Semaphores, Monitors, Mutex Locks, Memory segmentation ",
+      "Process Management \n Storage Management \n Memory Management \n Process Scheduling \n Multithreading \n Scheduling Criteria \n Semaphores \n Monitors \n Mutex Locks \n Memory segmentation ",
     href: "https://github.com/Pultti/AdvancedSoftwareDevelopment",
+    info: PythonOsInfo,
     source: "https://www.youtube.com/watch?v=1clCHkYiYHE",
     logo: "projects/python.png",
     logoStyle: {
