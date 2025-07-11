@@ -158,3 +158,42 @@ export const PythonOsInfo = [
   "- VS Code as coding environment\n" +
   "- GitHub for version control"
 ];
+
+export const OldPortfolioInfo = [
+   "Personal project for a web development course, which earned a perfect score.\n\n",
+
+   "Technologies used:\n" +
+   "- Semantic HTML \n" +
+   "- CSS \n" +
+   "- JavaScript \n" +
+   "- Robot framework for testing\n" +
+   "- GitHub in version control\n" +
+   "- VS code as a coding environment"
+];
+
+export const tryHackMeInfo = [
+   "Practiced foundational IT and cybersecurity skills on TryHackMe before starting formal studies.\n\n",
+
+   "Courses completed\n" +
+   "- Introduction to Cyber Security Learning Path\n" +
+   "- Pentesting principles \n" +
+   "- Networking Nerd \n"
+];
+
+// export const ReactLibInfo = [
+//   "This project is a personal library of reusable React and React Native components built during hands-on practice.\n\n",
+
+//   "Components included:\n" +
+//   "- Android-style month picker\n" +
+//   "- Modal windows\n" +
+//   "- ScrollView layouts\n" +
+//   "- Currency converter\n" +
+//   "- News display\n" +
+//   "- Theme changer\n" +
+//   "- Login screen\n" +
+//   "- Heartpulse calculator\n" +
+//   "- Weather tracker\n" +
+//   "- FlatList views\n" +
+//   "- Map integration\n"
+// ];
+

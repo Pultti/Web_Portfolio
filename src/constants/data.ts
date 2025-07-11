@@ -1,5 +1,5 @@
 import { Grades } from "./Grades";
-import { droneFleetInfo, tetrisInfo, atmInfo, movieAppInfo, ParKingInfo, dogCareInfo, ToDoAppInfo, PythonOsInfo } from "../constants/projectInfo";
+import { droneFleetInfo, tetrisInfo, atmInfo, movieAppInfo, ParKingInfo, dogCareInfo, ToDoAppInfo, PythonOsInfo, OldPortfolioInfo, tryHackMeInfo } from "../constants/projectInfo";
 
 export const navLinks = [
   {
@@ -235,9 +235,9 @@ export const myProjects = [
     desc: "Autonomous drone fleet with remote control capability — in the demo, we connected the app to a drone simulator through a server using a VPN connection.",
     subdesc:
       "System allows controlling multiple drones simultaneously, providing real-time video feed and telemetry data to the emergency services.",
-    href: "",
+    href: "https://github.com/mavlink/qgroundcontrol",
     source: "https://www.youtube.com/watch?v=4woO_ZCdlvg",
-    logo: "projects/droneSweep.png",
+    logo: "projects/droneFleet.png",
     info: droneFleetInfo,
     logoStyle: {
       backgroundColor: "#b18eff",
@@ -257,6 +257,7 @@ export const myProjects = [
   { id: 9,  name: "WSL",      icon: "microsoft", color: "#0078D6" },
   { id: 10, name: "MAVSDK",   icon: "digitalocean", color: "#0080FF" },
   { id: 11, name: "IoT",      icon: "raspberrypi", color: "#F59E0B" },
+  { id: 12, name: "GitHub",          icon: "github",          color: "#181717" }
 ],
   },
   {
@@ -286,6 +287,7 @@ export const myProjects = [
   { id: 9,  name: "Prettier",    icon: "prettier",         color: "#F7B93E" },
   { id: 10, name: "ESLint",      icon: "eslint",           color: "#4B32C3" },
   { id: 11, name: "Vite",        icon: "vite",             color: "#646CFF" },
+  { id: 12, name: "GitHub",          icon: "github",          color: "#181717" }
 ],
   },
   {
@@ -317,7 +319,7 @@ export const myProjects = [
     href: "https://github.com/Pultti/ATMSimulator",
     source: "https://www.youtube.com/watch?v=UcAwD9BDibA",
     info: atmInfo,
-    logo: "projects/atm2.png",
+    logo: "projects/atm.png",
     logoStyle: {
       backgroundColor: "#FF4C4C",
       background:
@@ -333,6 +335,7 @@ export const myProjects = [
   { id: 5,  name: "MySQL",            icon: "mysql",       color: "#4479A1" },
   { id: 6,  name: "Postman",          icon: "postman",     color: "#FF6C37" },
    { id: 7,  name: "Qt", icon: "qt",          color: "#41CD52" },
+   { id: 8, name: "GitHub",          icon: "github",          color: "#181717" }
 ]
   },
    {
@@ -362,6 +365,7 @@ export const myProjects = [
   { id: 8,  name: "Postman",           icon: "postman",      color: "#FF6C37" },
   { id: 9,  name: "Mocha",             icon: "mocha",        color: "#8D6748" },
   { id: 10, name: "Chai",              icon: "chai",         color: "#A30701" },
+  { id: 11, name: "GitHub",          icon: "github",          color: "#181717" }
 ],
   },
    {
@@ -384,6 +388,7 @@ export const myProjects = [
   { id: 3,  name: "Firebase",      icon: "firebase",         color: "#FFCA28" },
   { id: 4,  name: "Google Maps",   icon: "googlemaps",       color: "#4285F4" },
   { id: 5,  name: "PayPal",        icon: "paypal",           color: "#00457C" },
+  { id: 6, name: "GitHub",          icon: "github",          color: "#181717" }
 ],
   },
   {
@@ -405,6 +410,7 @@ export const myProjects = [
   { id: 1,  name: "Android Studio", icon: "androidstudio", color: "#3DDC84" },
   { id: 2,  name: "Kotlin",         icon: "kotlin",        color: "#7F52FF" },
   { id: 3,  name: "Firebase",       icon: "firebase",      color: "#FFCA28" },
+  { id: 4, name: "GitHub",          icon: "github",          color: "#181717" }
 ],
   },
     {
@@ -426,6 +432,7 @@ export const myProjects = [
   { id: 1, name: "VS Code",  icon: "visualstudiocode", color: "#007ACC" },
   { id: 2, name: "React",    icon: "react",            color: "#61DAFB" },
   { id: 3, name: "Firebase", icon: "firebase",         color: "#FFCA28" },
+  { id: 4, name: "GitHub",          icon: "github",          color: "#181717" }
 ],
   },
    {
@@ -446,9 +453,82 @@ export const myProjects = [
     tags: [
   { id: 1, name: "VS Code",  icon: "visualstudiocode", color: "#007ACC" },
   { id: 2, name: "Python",    icon: "python",   color: "#3776AB" },
+  { id: 3, name: "GitHub",          icon: "github",          color: "#181717" },
  ],
   },
-  
+      {
+    title: "Old Portfolio",
+    desc: "Traditional portfolio website focused on a plain, simple, and effective presentation of my skills and projects.",
+    subdesc:
+      "Responsive design for mobile and desktop\nInteractive elements\nObject-oriented programming",
+    href: "",
+    source: "",
+    info: OldPortfolioInfo,
+    logo: "projects/PortfolioOld.png",
+    logoStyle: {
+      backgroundColor: "#1565C0",
+      background: "linear-gradient(0deg, #1565C050, #1565C050), linear-gradient(180deg, rgba(255,255,255,0.95) 0%, rgba(200,220,255,0.85) 100%)",
+      border: "0.2px solid rgba(21,101,192,1)",
+      boxShadow: "0px 0px 60px 0px rgba(21,101,192,0.4)",
+    },
+  tags: [
+  { id: 1, name: "VS Code",         icon: "visualstudiocode",color: "#007ACC" },
+  { id: 2, name: "HTML",            icon: "html5",           color: "#E34F26" },
+  { id: 3, name: "CSS",             icon: "css3",            color: "#1572B6" },
+  { id: 4, name: "JavaScript",      icon: "javascript",      color: "#F7DF1E" },
+  { id: 5, name: "Robot Framework", icon: "robotframework",  color: "#008B8B" },
+  { id: 6, name: "GitHub",          icon: "github",          color: "#181717" }
+],
+},
+      {
+title: "TryHackMe - Cybersecurity Learning Platform",
+desc: "Exploring key cybersecurity topics, ranging from network security to digital forensics.",
+subdesc: 
+  "Covers offensive and defensive security\nIncludes hands-on labs and walkthroughs\nBuilt to support beginner-friendly learning paths",
+    href: "",
+    source: "",
+    info: tryHackMeInfo,
+    logo: "projects/tryHackMe.png",
+    logoStyle: {
+      backgroundColor: "#1565C0",
+      background: "linear-gradient(0deg, #1565C050, #1565C050), linear-gradient(180deg, rgba(255,255,255,0.95) 0%, rgba(200,220,255,0.85) 100%)",
+      border: "0.2px solid rgba(21,101,192,1)",
+      boxShadow: "0px 0px 60px 0px rgba(21,101,192,0.4)",
+    },
+  tags: [
+  { id: 1, name: "Kali Linux",          icon: "linux",            color: "#557C94" },
+  { id: 2, name: "Nmap",                icon: "radar",            color: "#00BFA5" },
+  ],
+},
+
+      {
+title: "React Component Library",
+desc: "Collection of reusable React Native components, built during a mobile development course and tested mainly on Android.",
+subdesc:
+  "Includes components like:\n" +
+  "- FlatList- & ScrollView layouts\n" +
+  "- News display & Weather tracker\n" +
+  "- Login screen & Month picker\n" +
+  "- Heartpulse calculator\n" +
+  "- Currency converter\n" +
+  "- Modal windows & Theme changer\n" +
+  "- Map integration",
+    href: "https://github.com/Pultti/React-Components-Android",
+    source: "",
+    info: "",
+    logo: "projects/reactComps.png",
+    logoStyle: {
+      backgroundColor: "#1565C0",
+      background: "linear-gradient(0deg, #1565C050, #1565C050), linear-gradient(180deg, rgba(255,255,255,0.95) 0%, rgba(200,220,255,0.85) 100%)",
+      border: "0.2px solid rgba(21,101,192,1)",
+      boxShadow: "0px 0px 60px 0px rgba(21,101,192,0.4)",
+    },
+    tags: [
+  { id: 1, name: "React",    icon: "react",            color: "#61DAFB" },
+  { id: 2, name: "VS Code",  icon: "visualstudiocode", color: "#007ACC" },
+  { id: 3, name: "GitHub",          icon: "github",          color: "#181717" }
+    ],
+},
 ];
 
 
