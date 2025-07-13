@@ -1,5 +1,5 @@
 import { Grades } from "./Grades";
-import { droneFleetInfo, tetrisInfo, atmInfo, movieAppInfo, ParKingInfo, dogCareInfo, ToDoAppInfo, PythonOsInfo, OldPortfolioInfo, tryHackMeInfo } from "../constants/projectInfo";
+import { droneFleetInfo, tetrisInfo, atmInfo, movieAppInfo, ParKingInfo, dogCareInfo, ToDoAppInfo, PythonOsInfo, tryHackMeInfo } from "../constants/projectInfo";
 
 export const navLinks = [
   {
@@ -257,7 +257,7 @@ export const myProjects = [
   { id: 9,  name: "WSL",      icon: "microsoft", color: "#0078D6" },
   { id: 10, name: "MAVSDK",   icon: "digitalocean", color: "#0080FF" },
   { id: 11, name: "IoT",      icon: "raspberrypi", color: "#F59E0B" },
-  { id: 12, name: "GitHub",          icon: "github",          color: "#181717" }
+  { id: 12, name: "GitHub",   icon: "github",     color: "#181717" }
 ],
   },
   {
@@ -334,8 +334,8 @@ export const myProjects = [
   { id: 4,  name: "VS Code",          icon: "visualstudiocode", color: "#007ACC" },
   { id: 5,  name: "MySQL",            icon: "mysql",       color: "#4479A1" },
   { id: 6,  name: "Postman",          icon: "postman",     color: "#FF6C37" },
-   { id: 7,  name: "Qt", icon: "qt",          color: "#41CD52" },
-   { id: 8, name: "GitHub",          icon: "github",          color: "#181717" }
+  { id: 7,  name: "Qt", icon: "qt",          color: "#41CD52" },
+  { id: 8, name: "GitHub",          icon: "github",          color: "#181717" }
 ]
   },
    {
@@ -456,52 +456,7 @@ export const myProjects = [
   { id: 3, name: "GitHub",          icon: "github",          color: "#181717" },
  ],
   },
-      {
-    title: "Old Portfolio",
-    desc: "Traditional portfolio website focused on a plain, simple, and effective presentation of my skills and projects.",
-    subdesc:
-      "Responsive design for mobile and desktop\nInteractive elements\nObject-oriented programming",
-    href: "",
-    source: "",
-    info: OldPortfolioInfo,
-    logo: "projects/PortfolioOld.png",
-    logoStyle: {
-      backgroundColor: "#1565C0",
-      background: "linear-gradient(0deg, #1565C050, #1565C050), linear-gradient(180deg, rgba(255,255,255,0.95) 0%, rgba(200,220,255,0.85) 100%)",
-      border: "0.2px solid rgba(21,101,192,1)",
-      boxShadow: "0px 0px 60px 0px rgba(21,101,192,0.4)",
-    },
-  tags: [
-  { id: 1, name: "VS Code",         icon: "visualstudiocode",color: "#007ACC" },
-  { id: 2, name: "HTML",            icon: "html5",           color: "#E34F26" },
-  { id: 3, name: "CSS",             icon: "css3",            color: "#1572B6" },
-  { id: 4, name: "JavaScript",      icon: "javascript",      color: "#F7DF1E" },
-  { id: 5, name: "Robot Framework", icon: "robotframework",  color: "#008B8B" },
-  { id: 6, name: "GitHub",          icon: "github",          color: "#181717" }
-],
-},
-      {
-title: "TryHackMe - Cybersecurity Learning Platform",
-desc: "Exploring key cybersecurity topics, ranging from network security to digital forensics.",
-subdesc: 
-  "Covers offensive and defensive security\nIncludes hands-on labs and walkthroughs\nBuilt to support beginner-friendly learning paths",
-    href: "",
-    source: "",
-    info: tryHackMeInfo,
-    logo: "projects/tryHackMe.png",
-    logoStyle: {
-      backgroundColor: "#1565C0",
-      background: "linear-gradient(0deg, #1565C050, #1565C050), linear-gradient(180deg, rgba(255,255,255,0.95) 0%, rgba(200,220,255,0.85) 100%)",
-      border: "0.2px solid rgba(21,101,192,1)",
-      boxShadow: "0px 0px 60px 0px rgba(21,101,192,0.4)",
-    },
-  tags: [
-  { id: 1, name: "Kali Linux",          icon: "linux",            color: "#557C94" },
-  { id: 2, name: "Nmap",                icon: "radar",            color: "#00BFA5" },
-  ],
-},
-
-      {
+        {
 title: "React Component Library",
 desc: "Collection of reusable React Native components, built during a mobile development course and tested mainly on Android.",
 subdesc:
@@ -518,10 +473,10 @@ subdesc:
     info: "",
     logo: "projects/reactComps.png",
     logoStyle: {
-      backgroundColor: "#1565C0",
-      background: "linear-gradient(0deg, #1565C050, #1565C050), linear-gradient(180deg, rgba(255,255,255,0.95) 0%, rgba(200,220,255,0.85) 100%)",
-      border: "0.2px solid rgba(21,101,192,1)",
-      boxShadow: "0px 0px 60px 0px rgba(21,101,192,0.4)",
+      backgroundColor: "#8E44AD",
+      background: "linear-gradient(0deg, #8E44AD50, #8E44AD50), linear-gradient(180deg, rgba(255,255,255,0.95) 0%, rgba(230,220,250,0.85) 100%)",
+      border: "0.2px solid rgba(142,68,173,1)",
+      boxShadow: "0px 0px 60px 0px rgba(142,68,173,0.4)",
     },
     tags: [
   { id: 1, name: "React",    icon: "react",            color: "#61DAFB" },
@@ -529,8 +484,125 @@ subdesc:
   { id: 3, name: "GitHub",          icon: "github",          color: "#181717" }
     ],
 },
-];
+      {
+    title: "Old Portfolio",
+    desc: "Traditional portfolio website focused on a plain, simple, and effective presentation of my skills and projects.",
+    subdesc:
+      "Responsive design for mobile and desktop\nInteractive elements\nObject-oriented programming\nRobot framework for UI testing\n",
+    href: "",
+    source: "",
+    info: "",
+    logo: "projects/PortfolioOld.png",
+    logoStyle: {
+      backgroundColor: "#C0A68F",
+      background: "linear-gradient(0deg, #C0A68F50, #C0A68F50), linear-gradient(180deg, rgba(255,255,255,0.95) 0%, rgba(245,235,220,0.85) 100%)",
+      border: "0.2px solid rgba(192,166,143,1)",
+      boxShadow: "0px 0px 60px 0px rgba(192,166,143,0.4)",
+    },
+  tags: [
+  { id: 1, name: "VS Code",         icon: "visualstudiocode",color: "#007ACC" },
+  { id: 2, name: "HTML",            icon: "html5",           color: "#E34F26" },
+  { id: 3, name: "CSS",             icon: "css3",            color: "#1572B6" },
+  { id: 4, name: "JavaScript",      icon: "javascript",      color: "#F7DF1E" },
+  { id: 5, name: "Robot Framework", icon: "robotframework",  color: "#008B8B" },
+  { id: 6, name: "GitHub",          icon: "github",          color: "#181717" }
+],
+},
+      {
+title: "TryHackMe",
+desc: "Exploring key cybersecurity topics, ranging from network security to digital forensics.",
+subdesc: 
+  "Covers offensive and defensive security\nIncludes hands-on labs and walkthroughs\nBuilt to support beginner-friendly learning paths",
+    href: "",
+    source: "",
+    info: tryHackMeInfo,
+    logo: "projects/tryHackMe.png",
+    logoStyle: {
+      backgroundColor: "#B71C1C",
+      background: "linear-gradient(0deg, #B71C1C50, #B71C1C50), linear-gradient(180deg, rgba(255,255,255,0.95) 0%, rgba(255,230,230,0.85) 100%)",
+      border: "0.2px solid rgba(183,28,28,1)",
+      boxShadow: "0px 0px 60px 0px rgba(183,28,28,0.4)",
+    },
+  tags: [
+  { id: 1, name: "Kali Linux",          icon: "linux",            color: "#557C94" },
+  { id: 2, name: "Nmap",                icon: "radar",            color: "#00BFA5" },
+  ],
+},
 
+      {
+title: "Penetration Testing",
+desc: "Hands-on summer project at OAMK focusing on ethical hacking using VulnHub virtual machines.",
+subdesc:
+  "Practiced network scanning, vulnerability assessment, and exploitation\n" +
+  "Tools used: Nmap, Metasploit, Burp Suite, ZAP & Hydra\n" +
+  "Target OS: Various Linux-based machines via Kali Linux",
+    href: "",
+    source: "",
+    info: "",  
+    logo: "projects/kali.png",
+    logoStyle: {
+      backgroundColor: "#00C853",
+      background: "linear-gradient(0deg, #00C85350, #00C85350), linear-gradient(180deg, rgba(255,255,255,0.95) 0%, rgba(220,255,235,0.85) 100%)",
+      border: "0.2px solid rgba(0,200,83,1)",
+      boxShadow: "0px 0px 60px 0px rgba(0,200,83,0.4)",
+    },
+  tags: [
+  { id: 1, name: "Kali Linux",          icon: "linux",            color: "#557C94" },
+  { id: 2, name: "Nmap",                icon: "radar",            color: "#00BFA5" },
+  ],
+},
+
+      {
+title: "REST API Quiz Game",
+desc: "Java course project – Hands-on experience with developing and testing REST API endpoints",
+  subdesc:
+    "Built with Spring Boot using Java\n" +
+    "Designed multiple GET/POST endpoints for quiz logic and score tracking\n" +
+    "Tested API using cURL, Postman & JSON responses\n" +
+    "No frontend – API-first design for learning backend basics",
+    href: "https://github.com/Pultti/gamejava",
+    source: "https://www.youtube.com/watch?v=Hh5Fqh5OPB8",
+    info: "",  
+    logo: "projects/gameJava.png",
+    logoStyle: {
+      backgroundColor: "#FFA726",
+      background: "linear-gradient(0deg, #FFA72650, #FFA72650), linear-gradient(180deg, rgba(255,255,255,0.95) 0%, rgba(255,245,230,0.85) 100%)",
+      border: "0.2px solid rgba(255,167,38,1)",
+      boxShadow: "0px 0px 60px 0px rgba(255,167,38,0.4)",
+    },
+  tags: [
+  { id: 1, name: "Java",         icon: "openjdk",         color: "#007396" },
+  { id: 2, name: "Spring Boot",  icon: "spring",          color: "#6DB33F" },
+  { id: 3, name: "Postman",      icon: "postman",         color: "#FF6C37" },
+  { id: 4, name: "VS Code",      icon: "visualstudiocode",color: "#007ACC" },
+  { id: 5, name: "GitHub",       icon: "github",          color: "#181717" }
+],
+},
+      {
+title: "Drones",
+desc: "Versatile practical project with drones & simulators",
+subdesc:
+  "Learned about drone hardware, ESCs, flight controllers, telemetry and batteries\n" +
+  "Assembled, configured and calibrated an X500 v2 autonomous drone\n" +
+  "Explored FPV simulators like Liftoff and real-world mission planning tools\n" +
+  "Practiced racing, cinematic and autonomous flight modes",
+    href: "",
+    source: "",
+    info: "",  
+    logo: "projects/drone.png",
+    logoStyle: {
+      backgroundColor: "#00B0FF",
+      background: "linear-gradient(0deg, #00B0FF50, #00B0FF50), linear-gradient(180deg, rgba(255,255,255,0.95) 0%, rgba(220,240,255,0.85) 100%)",
+      border: "0.2px solid rgba(0,176,255,1)",
+      boxShadow: "0px 0px 60px 0px rgba(0,176,255,0.4)",
+    },
+  tags: [
+   { id: 1, name: "Windows",        icon: "windows",         color: "#0078D6" },
+   { id: 2, name: "Linux",          icon: "linux",            color: "#557C94" },
+  ],
+},
+
+];
 
 export const skills = [
   "React",

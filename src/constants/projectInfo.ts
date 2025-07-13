@@ -19,7 +19,8 @@ export const droneFleetInfo = [
   "- Docker for containerization.\n" +
   "- QML for the UI.\n" +
   "- Kanban for project management.\n" +
-  "- Discord for team communication."
+  "- Discord for team communication." +
+  "- Word with screenshots for documentation."
 ];
 
 export const tetrisInfo = [
@@ -159,17 +160,17 @@ export const PythonOsInfo = [
   "- GitHub for version control"
 ];
 
-export const OldPortfolioInfo = [
-   "Personal project for a web development course, which earned a perfect score.\n\n",
+// export const OldPortfolioInfo = [
+//    "Personal project for a web development course, which earned a perfect score.\n\n",
 
-   "Technologies used:\n" +
-   "- Semantic HTML \n" +
-   "- CSS \n" +
-   "- JavaScript \n" +
-   "- Robot framework for testing\n" +
-   "- GitHub in version control\n" +
-   "- VS code as a coding environment"
-];
+//    "Technologies used:\n" +
+//    "- Semantic HTML \n" +
+//    "- CSS \n" +
+//    "- JavaScript \n" +
+//    "- Robot framework for testing\n" +
+//    "- GitHub in deployment & version control\n" +
+//    "- VS code as a coding environment"
+// ];
 
 export const tryHackMeInfo = [
    "Practiced foundational IT and cybersecurity skills on TryHackMe before starting formal studies.\n\n",
