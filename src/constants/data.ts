@@ -78,7 +78,7 @@ export const workExperiences = [
   },
   {
     id: 2,
-    company: "Oulu university of Applied Sciences - 4,7/5 GPA",
+    company: "Oulu university of Applied Sciences - 4,5/5 GPA",
     position: "Information and communication technology engineer",
     duration: "August 2022 - April 2025",
     icon: "oamk.png",
@@ -743,7 +743,7 @@ export const skillCards = [
   /* ------------- OS / Infra ------------- */
   { text: "Cloud",                icon: "googlecloud",      fill: "#4285F4",  iconFill: "#fff", since: 2023 },
   { text: "Virtual Machines",     icon: "virtualbox",       fill: "#183A61",  iconFill: "#fff", since: 2022 },
-  { text: "Linux",                icon: "linux",            fill: "#FCC624",  iconFill: "#000", months: 12 },
+  { text: "Linux",                icon: "linux",            fill: "#FCC624",  iconFill: "#000", since: 2022 },
   { text: "Kali Linux",           icon: "kalilinux",        fill: "#557C94",  iconFill: "#fff", months: 3 },
   { text: "Windows",              icon: "windows",          fill: "#0078D6",  iconFill: "#fff", since: 2010 },
   { text: "Android",              icon: "android",          fill: "#3DDC84",  iconFill: "#fff", since: 2015 },

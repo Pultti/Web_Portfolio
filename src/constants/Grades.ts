@@ -431,7 +431,7 @@ Job search and skills presentation tools and skills portfolio.`,
   },
   {
     course: "Swedish",
-    grade: "1",
+    grade: "1.5",
     info: `Professional Swedish language and communication
 
 Grading: Exam 50% & Oral presentation 50%

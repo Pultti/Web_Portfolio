@@ -16,7 +16,7 @@ export const droneFleetInfo = [
   "- WSL for development environment.\n" +
   "- Python for virtualisation and scripts.\n" +
   "- MAVLINK for drone communication.\n" +
-  "- Docker for containerization.\n" +
+  "- Azure Docker for containerization.\n" +
   "- QML for the UI.\n" +
   "- Kanban for project management.\n" +
   "- Discord for team communication.\n" +
