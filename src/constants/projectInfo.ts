@@ -19,7 +19,7 @@ export const droneFleetInfo = [
   "- Docker for containerization.\n" +
   "- QML for the UI.\n" +
   "- Kanban for project management.\n" +
-  "- Discord for team communication." +
+  "- Discord for team communication.\n" +
   "- Word with screenshots for documentation."
 ];
 
@@ -129,6 +129,7 @@ export const ToDoAppInfo = [
 
    "Technologies used:\n" +
    "- Frontend: JavaScript, React\n" +
+   "- Storage: Phone hardware\n" +
    "- API usage: Google Firebase, BoredAPI\n" +
    "- GitHub in version control\n" +
    "- VS code as a coding environment"
@@ -155,9 +156,7 @@ export const PythonOsInfo = [
   "- Tkinter (GUI)\n" +
   "- Pygame (mixer for sound effects)\n" +
   "- Threading\n" +
-  "- Random, Time\n" +
-  "- VS Code as coding environment\n" +
-  "- GitHub for version control"
+  "- Random, Time"
 ];
 
 // export const OldPortfolioInfo = [
@@ -197,4 +196,3 @@ export const tryHackMeInfo = [
 //   "- FlatList views\n" +
 //   "- Map integration\n"
 // ];
-

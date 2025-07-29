@@ -290,6 +290,28 @@ export const myProjects = [
   { id: 12, name: "GitHub",          icon: "github",          color: "#181717" }
 ],
   },
+    {
+    title: "Gateguard script",
+    desc: "Adds a physical approval step to PC login using a second device.",
+    subdesc:
+    "- Technologies: Python, Flask, Bash, VirtualBox, Linux & Windows\n" +
+    "- Learned to package Python scripts as standalone .Exe applications and automate login-level scripts in Linux.",
+    href: "",
+    source: "https://www.youtube.com/watch?v=qtVsJ6goZOs",
+    info: "",
+    logo: "projects/gateGuard.png",
+    logoStyle: {
+      backgroundColor: "#FF6347",
+      background: "linear-gradient(0deg, #FF634750, #FF634750), linear-gradient(180deg, rgba(255,255,255,0.95) 0%, rgba(255,220,220,0.85) 100%)",
+      border: "0.2px solid rgba(255,99,71,1)",
+      boxShadow: "0px 0px 60px 0px rgba(255,99,71,0.4)",
+    },
+    tags: [
+    { id: 1,  name: "VS Code",           icon: "visualstudiocode", color: "#007ACC" },
+    { id: 2, name: "Linux",          icon: "linux",            color: "#557C94" },
+    { id: 3, name: "Python",    icon: "python",   color: "#3776AB" },
+  ],
+  },
   {
     title: "Tetris Game",
     desc: "Built by using Arduino and C++ with a 3D printed case and TFT screen.",
@@ -321,11 +343,10 @@ export const myProjects = [
     info: atmInfo,
     logo: "projects/atm.png",
     logoStyle: {
-      backgroundColor: "#FF4C4C",
-      background:
-        "linear-gradient(0deg, #FF4C4C50, #FF4C4C50), linear-gradient(180deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 200, 200, 0.85) 100%)",
-      border: "0.2px solid rgba(255, 76, 76, 1)",
-      boxShadow: "0px 0px 60px 0px rgba(183, 28, 28, 0.4)",
+      backgroundColor: "#C0A68F",
+      background: "linear-gradient(0deg, #C0A68F50, #C0A68F50), linear-gradient(180deg, rgba(255,255,255,0.95) 0%, rgba(245,235,220,0.85) 100%)",
+      border: "0.2px solid rgba(192,166,143,1)",
+      boxShadow: "0px 0px 60px 0px rgba(192,166,143,0.4)",
     },
     tags: [
   { id: 1,  name: "C++",      icon: "cplusplus", color: "#00599C" },
@@ -377,10 +398,11 @@ export const myProjects = [
     info: ParKingInfo,
     logo: "projects/ParKing.png",
     logoStyle: {
-      backgroundColor: "#FF6347",
-      background: "linear-gradient(0deg, #FF634750, #FF634750), linear-gradient(180deg, rgba(255,255,255,0.95) 0%, rgba(255,220,220,0.85) 100%)",
-      border: "0.2px solid rgba(255,99,71,1)",
-      boxShadow: "0px 0px 60px 0px rgba(255,99,71,0.4)",
+      backgroundColor: "#B0D5EA",
+      background:
+        "linear-gradient(0deg, #B0D5EA50, #B0D5EA50), linear-gradient(180deg, rgba(255, 255, 255, 0.95) 0%, rgba(230, 245, 255, 0.85) 100%)",
+      border: "0.2px solid rgba(176, 213, 234, 1)",
+      boxShadow: "0px 0px 60px 0px rgba(176, 213, 234, 0.4)",
     },
     tags: [
   { id: 1,  name: "VS Code",       icon: "visualstudiocode", color: "#007ACC" },
@@ -401,10 +423,11 @@ export const myProjects = [
     info: dogCareInfo,
     logo: "projects/dogCare.png",
     logoStyle: {
-     backgroundColor: "#F783AC",
-     background: "linear-gradient(0deg, #F783AC50, #F783AC50), linear-gradient(180deg, rgba(255,255,255,0.95) 0%, rgba(255,220,235,0.85) 100%)",
-     border: "0.2px solid rgba(247,131,172,1)",
-     boxShadow: "0px 0px 60px 0px rgba(247,131,172,0.4)",
+      backgroundColor: "#A020F0",
+      background:
+        "linear-gradient(0deg, #A020F050, #A020F050), linear-gradient(180deg, rgba(255, 255, 255, 0.95) 0%, rgba(240, 220, 255, 0.85) 100%)",
+      border: "0.2px solid rgba(160, 32, 240, 1)",
+      boxShadow: "0px 0px 60px 0px rgba(160, 32, 240, 0.4)",
     },
     tags: [
   { id: 1,  name: "Android Studio", icon: "androidstudio", color: "#3DDC84" },
@@ -518,10 +541,10 @@ subdesc:
     info: tryHackMeInfo,
     logo: "projects/tryHackMe.png",
     logoStyle: {
-      backgroundColor: "#B71C1C",
-      background: "linear-gradient(0deg, #B71C1C50, #B71C1C50), linear-gradient(180deg, rgba(255,255,255,0.95) 0%, rgba(255,230,230,0.85) 100%)",
-      border: "0.2px solid rgba(183,28,28,1)",
-      boxShadow: "0px 0px 60px 0px rgba(183,28,28,0.4)",
+      backgroundColor: "#00C853",
+      background: "linear-gradient(0deg, #00C85350, #00C85350), linear-gradient(180deg, rgba(255,255,255,0.95) 0%, rgba(220,255,235,0.85) 100%)",
+      border: "0.2px solid rgba(0,200,83,1)",
+      boxShadow: "0px 0px 60px 0px rgba(0,200,83,0.4)",
     },
   tags: [
   { id: 1, name: "Kali Linux",          icon: "linux",            color: "#557C94" },
@@ -531,7 +554,7 @@ subdesc:
 
       {
 title: "Penetration Testing",
-desc: "Hands-on summer project at OAMK focusing on ethical hacking using VulnHub virtual machines.",
+desc: "Hands-on summer project where I focused on ethical hacking using VulnHub virtual machines.",
 subdesc:
   "Practiced network scanning, vulnerability assessment, and exploitation\n" +
   "Tools used: Nmap, Metasploit, Burp Suite, ZAP & Hydra\n" +
@@ -571,7 +594,7 @@ desc: "Java course project – Hands-on experience with developing and testing R
       boxShadow: "0px 0px 60px 0px rgba(255,167,38,0.4)",
     },
   tags: [
-  { id: 1, name: "Java",         icon: "openjdk",         color: "#007396" },
+  // { id: 1, name: "Java",         icon: "openjdk",         color: "#007396" },
   { id: 2, name: "Spring Boot",  icon: "spring",          color: "#6DB33F" },
   { id: 3, name: "Postman",      icon: "postman",         color: "#FF6C37" },
   { id: 4, name: "VS Code",      icon: "visualstudiocode",color: "#007ACC" },
