@@ -156,7 +156,7 @@ export const workExperiences = [
         link: "",
       },
        {
-        name: "Thesis - User authentication in the .NET environment",
+        name: "Thesis - User authentication in .NET environment",
         description: "",
         link: "",
       },
