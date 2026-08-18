@@ -38,8 +38,20 @@ export const socialLinks = [
 
 
 export const workExperiences = [
-  {
+    {
     id: 1,
+    company: "Puolustusvoimat - 10 Months",
+    position: "Systems engineer",
+    duration: "November 2025 - August 2026",
+    icon: "",
+    technologies: [
+      "Linux",
+      "Windows",
+      "Servers",
+    ],
+  },
+  {
+    id: 2,
     company: "Demola - 2 Months",
     position: "Systems engineer",
     duration: "February 2025 - April 2025",
@@ -76,8 +88,29 @@ export const workExperiences = [
       },
     ],
   },
+    {
+    id: 3,
+    company: "Pinja - 4 Months",
+    position: "Full Stack Developer",
+    duration: "February 2025 - April 2025",
+    icon: "",
+    technologies: [
+      ".Net",
+      "C++",
+      "Windows",
+      "SVN",
+      "Visual Basic",
+      "Microsoft SQL",
+      "Azure",
+      "WPF",
+      "WinForms",
+      "Jira",
+      "Confluence",
+      "Git/GitHub",
+    ],
+  },
   {
-    id: 2,
+    id: 4,
     company: "Oulu university of Applied Sciences - 4,5/5 GPA",
     position: "Information and communication technology engineer",
     duration: "August 2022 - April 2025",
@@ -165,7 +198,7 @@ export const workExperiences = [
   
   },
     {
-    id: 3,
+    id: 5,
     company: "Performance Sales Oy - 4 years 10 months",
     position: "Store Manager",
     duration: "May 2019 - February 2024",
@@ -182,7 +215,7 @@ export const workExperiences = [
     ],
   },
   {
-    id: 4,
+    id: 6,
     company: "Enia - 2 years 10 months",
     position: "Sales person",
     duration: "July 2016 - April 2019",
@@ -197,7 +230,7 @@ export const workExperiences = [
   ],
    },
      {
-    id: 5,
+    id: 7,
     company: "Military - 1 Year",
     position: "Sub-Sergeant",
     duration: "August 2015 - July 2016",
@@ -214,7 +247,7 @@ export const workExperiences = [
   ],
    },
   {
-    id: 6,
+    id: 8,
     company: "Kastelli - 3 years",
     position: "High School",
     duration: "August 2012 - June 2015",
