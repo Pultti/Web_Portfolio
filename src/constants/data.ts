@@ -49,6 +49,13 @@ export const workExperiences = [
       "Windows",
       "Servers",
     ],
+  projects: [
+      {
+        name: "I maintained, developed, and installed various systems on workstations and servers.",
+        description: "",
+        link: "",
+      },
+    ],
   },
   {
     id: 2,
@@ -82,7 +89,7 @@ export const workExperiences = [
     ],
     projects: [
       {
-        name: "Autonomous drone fleet",
+        name: "Autonomous drone fleet for Emergency services",
         description: "Autonomous drone fleet that can be remotely controlled by the emergency services",
         link: "https://www.youtube.com/watch?v=4woO_ZCdlvg",
       },
@@ -92,7 +99,7 @@ export const workExperiences = [
     id: 3,
     company: "Pinja - 4 Months",
     position: "Full Stack Developer",
-    duration: "February 2025 - April 2025",
+    duration: "May 2024 - September 2024",
     icon: "",
     technologies: [
       ".Net",
@@ -107,6 +114,13 @@ export const workExperiences = [
       "Jira",
       "Confluence",
       "Git/GitHub",
+    ],
+    projects: [
+      {
+        name: "I contributed to the front-end and back-end development of the Forest of Pinja app. The main goal was to convert the old Visual Basic code into modern C# code.",
+        description: "",
+        link: "",
+      },
     ],
   },
   {
