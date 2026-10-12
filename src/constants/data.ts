@@ -311,7 +311,7 @@ export const myProjects = [
     title: "Toni Isopoussu - Portfolio Website",
     desc: "My Portfolio Website, a showcase of my skills, projects, and experience as a software developer.",
     subdesc:
-      "Built with modern web technologies, this portfolio highlights interactive 3D elements, smooth animations, and a responsive design for an engaging user experience.",
+      "Built with modern web technologies, this portfolio features interactive 3D elements, smooth animations, and a responsive design for an engaging user experience. A CI/CD pipeline powered by GitHub Actions automates the build and deployment process to GitHub Pages.",
     href: "",
     source: "",
     logo: "projects/PortfolioMain.png",
@@ -334,7 +334,9 @@ export const myProjects = [
   { id: 9,  name: "Prettier",    icon: "prettier",         color: "#F7B93E" },
   { id: 10, name: "ESLint",      icon: "eslint",           color: "#4B32C3" },
   { id: 11, name: "Vite",        icon: "vite",             color: "#646CFF" },
-  { id: 12, name: "GitHub",          icon: "github",          color: "#181717" }
+  { id: 12, name: "GitHub",          icon: "github",          color: "#181717" },
+  { id: 13, name: "GitHub Actions", icon: "githubactions", color: "#2088FF" },
+  { id: 14, name: "CI/CD",          icon: "git",           color: "#F05032" }
 ],
   },
     {
